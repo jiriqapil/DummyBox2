@@ -1,0 +1,1390 @@
+pkuid,vertex_index,xcoord,ycoord,code,name
+263,0,14.222,49.832,CBSZ,Central Bohemian Shear Zone
+263,1,14.197,49.817,CBSZ,Central Bohemian Shear Zone
+263,2,14.152,49.796,CBSZ,Central Bohemian Shear Zone
+263,3,14.084,49.759,CBSZ,Central Bohemian Shear Zone
+263,4,14.025,49.731,CBSZ,Central Bohemian Shear Zone
+263,5,13.953,49.698,CBSZ,Central Bohemian Shear Zone
+263,6,13.894,49.676,CBSZ,Central Bohemian Shear Zone
+263,7,13.885,49.672,CBSZ,Central Bohemian Shear Zone
+263,8,13.868,49.661,CBSZ,Central Bohemian Shear Zone
+263,9,13.856,49.657,CBSZ,Central Bohemian Shear Zone
+264,0,13.114,49.322,CBSZ,Central Bohemian Shear Zone
+264,1,13.106,49.319,CBSZ,Central Bohemian Shear Zone
+264,2,13.099,49.317,CBSZ,Central Bohemian Shear Zone
+264,3,13.087,49.314,CBSZ,Central Bohemian Shear Zone
+264,4,13.072,49.31,CBSZ,Central Bohemian Shear Zone
+264,5,13.054,49.305,CBSZ,Central Bohemian Shear Zone
+264,6,13.027,49.296,CBSZ,Central Bohemian Shear Zone
+265,0,13.114,49.322,CBSZ,Central Bohemian Shear Zone
+265,1,13.155,49.354,CBSZ,Central Bohemian Shear Zone
+265,2,13.176,49.362,CBSZ,Central Bohemian Shear Zone
+265,3,13.224,49.376,CBSZ,Central Bohemian Shear Zone
+265,4,13.266,49.39,CBSZ,Central Bohemian Shear Zone
+265,5,13.28,49.397,CBSZ,Central Bohemian Shear Zone
+265,6,13.299,49.409,CBSZ,Central Bohemian Shear Zone
+265,7,13.325,49.417,CBSZ,Central Bohemian Shear Zone
+265,8,13.335,49.424,CBSZ,Central Bohemian Shear Zone
+265,9,13.349,49.438,CBSZ,Central Bohemian Shear Zone
+265,10,13.362,49.447,CBSZ,Central Bohemian Shear Zone
+265,11,13.377,49.456,CBSZ,Central Bohemian Shear Zone
+265,12,13.396,49.465,CBSZ,Central Bohemian Shear Zone
+265,13,13.407,49.466,CBSZ,Central Bohemian Shear Zone
+265,14,13.413,49.466,CBSZ,Central Bohemian Shear Zone
+265,15,13.416,49.465,CBSZ,Central Bohemian Shear Zone
+265,16,13.421,49.461,CBSZ,Central Bohemian Shear Zone
+265,17,13.419,49.455,CBSZ,Central Bohemian Shear Zone
+265,18,13.421,49.452,CBSZ,Central Bohemian Shear Zone
+265,19,13.427,49.448,CBSZ,Central Bohemian Shear Zone
+265,20,13.435,49.446,CBSZ,Central Bohemian Shear Zone
+265,21,13.447,49.447,CBSZ,Central Bohemian Shear Zone
+265,22,13.463,49.448,CBSZ,Central Bohemian Shear Zone
+265,23,13.482,49.452,CBSZ,Central Bohemian Shear Zone
+265,24,13.497,49.456,CBSZ,Central Bohemian Shear Zone
+265,25,13.507,49.461,CBSZ,Central Bohemian Shear Zone
+265,26,13.523,49.474,CBSZ,Central Bohemian Shear Zone
+265,27,13.548,49.488,CBSZ,Central Bohemian Shear Zone
+265,28,13.567,49.496,CBSZ,Central Bohemian Shear Zone
+265,29,13.593,49.503,CBSZ,Central Bohemian Shear Zone
+265,30,13.605,49.507,CBSZ,Central Bohemian Shear Zone
+265,31,13.67,49.543,CBSZ,Central Bohemian Shear Zone
+266,0,14.787,50.062,CBSZ,Central Bohemian Shear Zone
+266,1,14.769,50.061,CBSZ,Central Bohemian Shear Zone
+266,2,14.748,50.056,CBSZ,Central Bohemian Shear Zone
+266,3,14.722,50.054,CBSZ,Central Bohemian Shear Zone
+266,4,14.692,50.049,CBSZ,Central Bohemian Shear Zone
+266,5,14.612,50.027,CBSZ,Central Bohemian Shear Zone
+266,6,14.586,50.021,CBSZ,Central Bohemian Shear Zone
+266,7,14.547,50.015,CBSZ,Central Bohemian Shear Zone
+266,8,14.531,50.011,CBSZ,Central Bohemian Shear Zone
+266,9,14.508,50.004,CBSZ,Central Bohemian Shear Zone
+266,10,14.482,49.994,CBSZ,Central Bohemian Shear Zone
+266,11,14.453,49.982,CBSZ,Central Bohemian Shear Zone
+266,12,14.425,49.969,CBSZ,Central Bohemian Shear Zone
+266,13,14.4,49.956,CBSZ,Central Bohemian Shear Zone
+266,14,14.377,49.942,CBSZ,Central Bohemian Shear Zone
+266,15,14.346,49.921,CBSZ,Central Bohemian Shear Zone
+266,16,14.277,49.869,CBSZ,Central Bohemian Shear Zone
+266,17,14.222,49.832,CBSZ,Central Bohemian Shear Zone
+24,0,16.699,49.674,CSZ,Cervenohorske Sedlo Zone
+24,1,16.778,49.726,CSZ,Cervenohorske Sedlo Zone
+24,2,16.879,49.786,CSZ,Cervenohorske Sedlo Zone
+24,3,16.894,49.799,CSZ,Cervenohorske Sedlo Zone
+24,4,16.92,49.823,CSZ,Cervenohorske Sedlo Zone
+25,0,16.983,49.948,CSZ,Cervenohorske Sedlo Zone
+25,1,17.028,49.989,CSZ,Cervenohorske Sedlo Zone
+25,2,17.071,50.032,CSZ,Cervenohorske Sedlo Zone
+25,3,17.088,50.048,CSZ,Cervenohorske Sedlo Zone
+25,4,17.117,50.088,CSZ,Cervenohorske Sedlo Zone
+25,5,17.152,50.129,CSZ,Cervenohorske Sedlo Zone
+25,6,17.182,50.161,CSZ,Cervenohorske Sedlo Zone
+25,7,17.202,50.177,CSZ,Cervenohorske Sedlo Zone
+25,8,17.202,50.177,CSZ,Cervenohorske Sedlo Zone
+26,0,16.912,49.84,CSZ,Cervenohorske Sedlo Zone
+26,1,16.886,49.895,CSZ,Cervenohorske Sedlo Zone
+27,0,16.983,49.948,CSZ,Cervenohorske Sedlo Zone
+27,1,16.948,49.916,CSZ,Cervenohorske Sedlo Zone
+27,2,16.911,49.886,CSZ,Cervenohorske Sedlo Zone
+11,0,15.785,48.557,DBF,Diendorf-Boskovice Fault Zone
+11,1,15.741,48.523,DBF,Diendorf-Boskovice Fault Zone
+11,2,15.699,48.487,DBF,Diendorf-Boskovice Fault Zone
+12,0,15.699,48.487,DBF,Diendorf-Boskovice Fault Zone
+12,1,15.642,48.457,DBF,Diendorf-Boskovice Fault Zone
+12,2,15.589,48.426,DBF,Diendorf-Boskovice Fault Zone
+13,0,15.589,48.426,DBF,Diendorf-Boskovice Fault Zone
+13,1,15.539,48.398,DBF,Diendorf-Boskovice Fault Zone
+14,0,15.524,48.391,DBF,Diendorf-Boskovice Fault Zone
+14,1,15.539,48.398,DBF,Diendorf-Boskovice Fault Zone
+15,0,15.524,48.391,DBF,Diendorf-Boskovice Fault Zone
+15,1,15.459,48.351,DBF,Diendorf-Boskovice Fault Zone
+15,2,15.409,48.311,DBF,Diendorf-Boskovice Fault Zone
+15,3,15.368,48.275,DBF,Diendorf-Boskovice Fault Zone
+15,4,15.341,48.247,DBF,Diendorf-Boskovice Fault Zone
+15,5,15.319,48.229,DBF,Diendorf-Boskovice Fault Zone
+16,0,15.319,48.229,DBF,Diendorf-Boskovice Fault Zone
+16,1,15.296,48.209,DBF,Diendorf-Boskovice Fault Zone
+16,2,15.269,48.19,DBF,Diendorf-Boskovice Fault Zone
+16,3,15.24,48.171,DBF,Diendorf-Boskovice Fault Zone
+16,4,15.207,48.152,DBF,Diendorf-Boskovice Fault Zone
+16,5,15.132,48.106,DBF,Diendorf-Boskovice Fault Zone
+17,0,15.874,48.637,DBF,Diendorf-Boskovice Fault Zone
+17,1,15.908,48.663,DBF,Diendorf-Boskovice Fault Zone
+17,2,15.945,48.695,DBF,Diendorf-Boskovice Fault Zone
+17,3,16.031,48.762,DBF,Diendorf-Boskovice Fault Zone
+18,0,15.874,48.637,DBF,Diendorf-Boskovice Fault Zone
+18,1,15.807,48.574,DBF,Diendorf-Boskovice Fault Zone
+19,0,15.807,48.574,DBF,Diendorf-Boskovice Fault Zone
+19,1,15.785,48.557,DBF,Diendorf-Boskovice Fault Zone
+20,0,16.031,48.762,DBF,Diendorf-Boskovice Fault Zone
+20,1,16.079,48.8,DBF,Diendorf-Boskovice Fault Zone
+21,0,16.393,49.305,DBF,Diendorf-Boskovice Fault Zone
+21,1,16.372,49.282,DBF,Diendorf-Boskovice Fault Zone
+21,2,16.356,49.26,DBF,Diendorf-Boskovice Fault Zone
+21,3,16.325,49.205,DBF,Diendorf-Boskovice Fault Zone
+21,4,16.305,49.161,DBF,Diendorf-Boskovice Fault Zone
+21,5,16.285,49.103,DBF,Diendorf-Boskovice Fault Zone
+21,6,16.268,49.059,DBF,Diendorf-Boskovice Fault Zone
+21,7,16.258,49.039,DBF,Diendorf-Boskovice Fault Zone
+22,0,16.49,49.421,DBF,Diendorf-Boskovice Fault Zone
+22,1,16.513,49.444,DBF,Diendorf-Boskovice Fault Zone
+22,2,16.525,49.455,DBF,Diendorf-Boskovice Fault Zone
+22,3,16.599,49.502,DBF,Diendorf-Boskovice Fault Zone
+22,4,16.648,49.53,DBF,Diendorf-Boskovice Fault Zone
+22,5,16.665,49.539,DBF,Diendorf-Boskovice Fault Zone
+23,0,16.49,49.421,DBF,Diendorf-Boskovice Fault Zone
+23,1,16.393,49.305,DBF,Diendorf-Boskovice Fault Zone
+288,0,12.375,48.95,DFZ,Danube Fault Zone
+288,1,13.099,48.733,DFZ,Danube Fault Zone
+288,2,13.287,48.677,DFZ,Danube Fault Zone
+288,3,13.3,48.674,DFZ,Danube Fault Zone
+288,4,13.675,48.563,DFZ,Danube Fault Zone
+288,5,13.675,48.563,DFZ,Danube Fault Zone
+289,0,13.675,48.563,DFZ,Danube Fault Zone
+289,1,13.699,48.553,DFZ,Danube Fault Zone
+289,2,13.74,48.533,DFZ,Danube Fault Zone
+289,3,13.864,48.467,DFZ,Danube Fault Zone
+289,4,13.967,48.402,DFZ,Danube Fault Zone
+289,5,14.05,48.355,DFZ,Danube Fault Zone
+289,6,14.149,48.31,DFZ,Danube Fault Zone
+289,7,14.289,48.224,DFZ,Danube Fault Zone
+93,0,13.133,51.49,EFZ,Elbe Fault Zone
+93,1,13.036,51.564,EFZ,Elbe Fault Zone
+93,2,12.835,51.714,EFZ,Elbe Fault Zone
+93,3,12.813,51.73,EFZ,Elbe Fault Zone
+93,4,12.784,51.745,EFZ,Elbe Fault Zone
+93,5,12.743,51.762,EFZ,Elbe Fault Zone
+93,6,12.704,51.778,EFZ,Elbe Fault Zone
+93,7,12.673,51.792,EFZ,Elbe Fault Zone
+93,8,12.546,51.862,EFZ,Elbe Fault Zone
+93,9,12.521,51.874,EFZ,Elbe Fault Zone
+93,10,12.493,51.887,EFZ,Elbe Fault Zone
+93,11,12.459,51.898,EFZ,Elbe Fault Zone
+93,12,12.431,51.906,EFZ,Elbe Fault Zone
+93,13,12.365,51.921,EFZ,Elbe Fault Zone
+93,14,12.305,51.928,EFZ,Elbe Fault Zone
+93,15,12.239,51.936,EFZ,Elbe Fault Zone
+93,16,12.177,51.944,EFZ,Elbe Fault Zone
+93,17,12.13,51.952,EFZ,Elbe Fault Zone
+93,18,12.085,51.962,EFZ,Elbe Fault Zone
+93,19,11.988,51.984,EFZ,Elbe Fault Zone
+93,20,11.842,52.022,EFZ,Elbe Fault Zone
+93,21,11.702,52.067,EFZ,Elbe Fault Zone
+93,22,11.621,52.099,EFZ,Elbe Fault Zone
+93,23,11.578,52.116,EFZ,Elbe Fault Zone
+93,24,11.543,52.128,EFZ,Elbe Fault Zone
+93,25,11.512,52.141,EFZ,Elbe Fault Zone
+93,26,11.491,52.151,EFZ,Elbe Fault Zone
+93,27,11.473,52.162,EFZ,Elbe Fault Zone
+93,28,11.459,52.172,EFZ,Elbe Fault Zone
+93,29,11.443,52.184,EFZ,Elbe Fault Zone
+94,0,13.074,51.255,EFZ,Elbe Fault Zone
+94,1,13.022,51.257,EFZ,Elbe Fault Zone
+94,2,12.972,51.256,EFZ,Elbe Fault Zone
+94,3,12.949,51.267,EFZ,Elbe Fault Zone
+94,4,12.928,51.279,EFZ,Elbe Fault Zone
+94,5,12.909,51.293,EFZ,Elbe Fault Zone
+94,6,12.892,51.307,EFZ,Elbe Fault Zone
+95,0,13.491,51.314,EFZ,Elbe Fault Zone
+95,1,13.587,51.261,EFZ,Elbe Fault Zone
+96,0,13.349,51.392,EFZ,Elbe Fault Zone
+96,1,13.361,51.389,EFZ,Elbe Fault Zone
+96,2,13.372,51.385,EFZ,Elbe Fault Zone
+96,3,13.382,51.38,EFZ,Elbe Fault Zone
+96,4,13.419,51.354,EFZ,Elbe Fault Zone
+96,5,13.448,51.337,EFZ,Elbe Fault Zone
+96,6,13.478,51.321,EFZ,Elbe Fault Zone
+96,7,13.491,51.314,EFZ,Elbe Fault Zone
+97,0,13.178,51.493,EFZ,Elbe Fault Zone
+97,1,13.17,51.487,EFZ,Elbe Fault Zone
+97,2,13.166,51.481,EFZ,Elbe Fault Zone
+97,3,13.165,51.476,EFZ,Elbe Fault Zone
+97,4,13.171,51.47,EFZ,Elbe Fault Zone
+97,5,13.186,51.459,EFZ,Elbe Fault Zone
+97,6,13.211,51.444,EFZ,Elbe Fault Zone
+97,7,13.237,51.43,EFZ,Elbe Fault Zone
+97,8,13.255,51.421,EFZ,Elbe Fault Zone
+97,9,13.265,51.418,EFZ,Elbe Fault Zone
+97,10,13.274,51.417,EFZ,Elbe Fault Zone
+97,11,13.291,51.42,EFZ,Elbe Fault Zone
+98,0,13.583,50.989,EFZ,Elbe Fault Zone
+98,1,13.59,50.984,EFZ,Elbe Fault Zone
+98,2,13.623,50.965,EFZ,Elbe Fault Zone
+98,3,13.642,50.955,EFZ,Elbe Fault Zone
+98,4,13.659,50.947,EFZ,Elbe Fault Zone
+98,5,13.781,50.9,EFZ,Elbe Fault Zone
+99,0,14.02,50.811,EFZ,Elbe Fault Zone
+99,1,14.016,50.794,EFZ,Elbe Fault Zone
+99,2,14.016,50.778,EFZ,Elbe Fault Zone
+100,0,13.751,51.169,EFZ,Elbe Fault Zone
+100,1,13.77,51.157,EFZ,Elbe Fault Zone
+100,2,13.777,51.15,EFZ,Elbe Fault Zone
+100,3,13.788,51.142,EFZ,Elbe Fault Zone
+100,4,13.807,51.131,EFZ,Elbe Fault Zone
+100,5,13.81,51.131,EFZ,Elbe Fault Zone
+101,0,13.81,51.131,EFZ,Elbe Fault Zone
+101,1,13.852,51.098,EFZ,Elbe Fault Zone
+102,0,13.281,51.16,EFZ,Elbe Fault Zone
+102,1,13.306,51.14,EFZ,Elbe Fault Zone
+102,2,13.334,51.114,EFZ,Elbe Fault Zone
+102,3,13.347,51.106,EFZ,Elbe Fault Zone
+102,4,13.375,51.095,EFZ,Elbe Fault Zone
+102,5,13.417,51.082,EFZ,Elbe Fault Zone
+102,6,13.464,51.071,EFZ,Elbe Fault Zone
+102,7,13.477,51.069,EFZ,Elbe Fault Zone
+102,8,13.486,51.069,EFZ,Elbe Fault Zone
+102,9,13.491,51.068,EFZ,Elbe Fault Zone
+102,10,13.521,51.049,EFZ,Elbe Fault Zone
+102,11,13.54,51.033,EFZ,Elbe Fault Zone
+103,0,13.54,51.033,EFZ,Elbe Fault Zone
+103,1,13.561,51.018,EFZ,Elbe Fault Zone
+104,0,13.864,51.089,EFZ,Elbe Fault Zone
+104,1,13.892,51.074,EFZ,Elbe Fault Zone
+104,2,13.923,51.062,EFZ,Elbe Fault Zone
+104,3,13.956,51.053,EFZ,Elbe Fault Zone
+104,4,13.993,51.046,EFZ,Elbe Fault Zone
+104,5,14.043,51.037,EFZ,Elbe Fault Zone
+105,0,13.561,51.018,EFZ,Elbe Fault Zone
+105,1,13.572,51.002,EFZ,Elbe Fault Zone
+105,2,13.583,50.989,EFZ,Elbe Fault Zone
+106,0,13.587,51.261,EFZ,Elbe Fault Zone
+106,1,13.609,51.25,EFZ,Elbe Fault Zone
+106,2,13.641,51.23,EFZ,Elbe Fault Zone
+106,3,13.678,51.209,EFZ,Elbe Fault Zone
+106,4,13.732,51.181,EFZ,Elbe Fault Zone
+106,5,13.751,51.169,EFZ,Elbe Fault Zone
+107,0,14.025,50.84,EFZ,Elbe Fault Zone
+107,1,14.026,50.838,EFZ,Elbe Fault Zone
+107,2,14.025,50.822,EFZ,Elbe Fault Zone
+107,3,14.02,50.811,EFZ,Elbe Fault Zone
+108,0,14.02,50.811,EFZ,Elbe Fault Zone
+108,1,13.958,50.827,EFZ,Elbe Fault Zone
+108,2,13.92,50.845,EFZ,Elbe Fault Zone
+108,3,13.861,50.868,EFZ,Elbe Fault Zone
+108,4,13.825,50.878,EFZ,Elbe Fault Zone
+108,5,13.784,50.889,EFZ,Elbe Fault Zone
+108,6,13.782,50.895,EFZ,Elbe Fault Zone
+108,7,13.781,50.9,EFZ,Elbe Fault Zone
+109,0,15.287,50.053,EFZ,Elbe Fault Zone
+109,1,15.302,50.045,EFZ,Elbe Fault Zone
+109,2,15.32,50.038,EFZ,Elbe Fault Zone
+109,3,15.379,50.017,EFZ,Elbe Fault Zone
+109,4,15.423,50,EFZ,Elbe Fault Zone
+109,5,15.442,49.991,EFZ,Elbe Fault Zone
+109,6,15.472,49.974,EFZ,Elbe Fault Zone
+110,0,14.016,50.778,EFZ,Elbe Fault Zone
+110,1,14.017,50.772,EFZ,Elbe Fault Zone
+110,2,14.017,50.767,EFZ,Elbe Fault Zone
+110,3,14.019,50.76,EFZ,Elbe Fault Zone
+110,4,14.021,50.756,EFZ,Elbe Fault Zone
+110,5,14.027,50.75,EFZ,Elbe Fault Zone
+110,6,14.033,50.745,EFZ,Elbe Fault Zone
+110,7,14.041,50.741,EFZ,Elbe Fault Zone
+110,8,14.05,50.737,EFZ,Elbe Fault Zone
+111,0,14.356,50.562,EFZ,Elbe Fault Zone
+111,1,14.37,50.556,EFZ,Elbe Fault Zone
+111,2,14.393,50.545,EFZ,Elbe Fault Zone
+111,3,14.414,50.535,EFZ,Elbe Fault Zone
+111,4,14.436,50.525,EFZ,Elbe Fault Zone
+111,5,14.447,50.519,EFZ,Elbe Fault Zone
+111,6,14.457,50.514,EFZ,Elbe Fault Zone
+111,7,14.478,50.503,EFZ,Elbe Fault Zone
+111,8,14.498,50.492,EFZ,Elbe Fault Zone
+111,9,14.518,50.481,EFZ,Elbe Fault Zone
+111,10,14.539,50.47,EFZ,Elbe Fault Zone
+111,11,14.56,50.459,EFZ,Elbe Fault Zone
+111,12,14.581,50.447,EFZ,Elbe Fault Zone
+111,13,14.602,50.436,EFZ,Elbe Fault Zone
+111,14,14.623,50.424,EFZ,Elbe Fault Zone
+111,15,14.645,50.412,EFZ,Elbe Fault Zone
+111,16,14.666,50.401,EFZ,Elbe Fault Zone
+111,17,14.688,50.388,EFZ,Elbe Fault Zone
+111,18,14.71,50.376,EFZ,Elbe Fault Zone
+111,19,14.731,50.365,EFZ,Elbe Fault Zone
+111,20,14.753,50.353,EFZ,Elbe Fault Zone
+111,21,14.774,50.342,EFZ,Elbe Fault Zone
+111,22,14.795,50.331,EFZ,Elbe Fault Zone
+111,23,14.817,50.32,EFZ,Elbe Fault Zone
+111,24,14.837,50.309,EFZ,Elbe Fault Zone
+111,25,14.857,50.299,EFZ,Elbe Fault Zone
+111,26,14.858,50.299,EFZ,Elbe Fault Zone
+111,27,14.858,50.299,EFZ,Elbe Fault Zone
+111,28,14.858,50.299,EFZ,Elbe Fault Zone
+111,29,14.879,50.288,EFZ,Elbe Fault Zone
+111,30,14.9,50.277,EFZ,Elbe Fault Zone
+111,31,14.92,50.266,EFZ,Elbe Fault Zone
+111,32,14.941,50.256,EFZ,Elbe Fault Zone
+111,33,14.961,50.245,EFZ,Elbe Fault Zone
+111,34,14.981,50.234,EFZ,Elbe Fault Zone
+111,35,15.001,50.223,EFZ,Elbe Fault Zone
+111,36,15.021,50.212,EFZ,Elbe Fault Zone
+111,37,15.04,50.202,EFZ,Elbe Fault Zone
+111,38,15.06,50.191,EFZ,Elbe Fault Zone
+111,39,15.079,50.18,EFZ,Elbe Fault Zone
+111,40,15.099,50.168,EFZ,Elbe Fault Zone
+111,41,15.118,50.157,EFZ,Elbe Fault Zone
+111,42,15.137,50.146,EFZ,Elbe Fault Zone
+111,43,15.156,50.135,EFZ,Elbe Fault Zone
+111,44,15.175,50.123,EFZ,Elbe Fault Zone
+111,45,15.194,50.112,EFZ,Elbe Fault Zone
+111,46,15.213,50.1,EFZ,Elbe Fault Zone
+111,47,15.231,50.089,EFZ,Elbe Fault Zone
+111,48,15.25,50.077,EFZ,Elbe Fault Zone
+111,49,15.268,50.065,EFZ,Elbe Fault Zone
+111,50,15.287,50.053,EFZ,Elbe Fault Zone
+112,0,15.743,49.759,EFZ,Elbe Fault Zone
+112,1,15.784,49.734,EFZ,Elbe Fault Zone
+112,2,15.829,49.708,EFZ,Elbe Fault Zone
+113,0,15.472,49.974,EFZ,Elbe Fault Zone
+113,1,15.522,49.917,EFZ,Elbe Fault Zone
+113,2,15.603,49.839,EFZ,Elbe Fault Zone
+113,3,15.733,49.765,EFZ,Elbe Fault Zone
+113,4,15.743,49.759,EFZ,Elbe Fault Zone
+130,0,13.616,50.579,ER,Eger Rift
+130,1,13.786,50.645,ER,Eger Rift
+131,0,13.602,50.574,ER,Eger Rift
+131,1,13.616,50.579,ER,Eger Rift
+132,0,14.957,50.732,ER,Eger Rift
+132,1,14.909,50.725,ER,Eger Rift
+132,2,14.877,50.718,ER,Eger Rift
+132,3,14.812,50.7,ER,Eger Rift
+132,4,14.757,50.681,ER,Eger Rift
+132,5,14.709,50.663,ER,Eger Rift
+132,6,14.678,50.649,ER,Eger Rift
+132,7,14.634,50.627,ER,Eger Rift
+132,8,14.609,50.611,ER,Eger Rift
+132,9,14.599,50.608,ER,Eger Rift
+133,0,14.287,50.585,ER,Eger Rift
+133,1,14.256,50.579,ER,Eger Rift
+133,2,14.181,50.553,ER,Eger Rift
+133,3,14.078,50.503,ER,Eger Rift
+133,4,14.043,50.493,ER,Eger Rift
+133,5,14.017,50.482,ER,Eger Rift
+133,6,13.958,50.452,ER,Eger Rift
+133,7,13.931,50.44,ER,Eger Rift
+133,8,13.903,50.43,ER,Eger Rift
+133,9,13.87,50.419,ER,Eger Rift
+133,10,13.816,50.404,ER,Eger Rift
+133,11,13.704,50.386,ER,Eger Rift
+134,0,13.221,50.414,ER,Eger Rift
+134,1,13.175,50.41,ER,Eger Rift
+134,2,13.15,50.404,ER,Eger Rift
+134,3,13.139,50.401,ER,Eger Rift
+134,4,13.126,50.395,ER,Eger Rift
+134,5,13.114,50.389,ER,Eger Rift
+134,6,13.101,50.382,ER,Eger Rift
+134,7,13.092,50.378,ER,Eger Rift
+134,8,13.069,50.373,ER,Eger Rift
+134,9,13.031,50.37,ER,Eger Rift
+134,10,13.01,50.365,ER,Eger Rift
+134,11,12.989,50.355,ER,Eger Rift
+134,12,12.969,50.343,ER,Eger Rift
+135,0,12.969,50.343,ER,Eger Rift
+135,1,12.935,50.332,ER,Eger Rift
+136,0,13.345,50.341,ER,Eger Rift
+136,1,13.367,50.349,ER,Eger Rift
+136,2,13.388,50.357,ER,Eger Rift
+136,3,13.409,50.367,ER,Eger Rift
+136,4,13.428,50.377,ER,Eger Rift
+137,0,13.722,50.352,ER,Eger Rift
+137,1,13.76,50.363,ER,Eger Rift
+137,2,13.792,50.372,ER,Eger Rift
+137,3,13.82,50.382,ER,Eger Rift
+137,4,13.822,50.382,ER,Eger Rift
+138,0,12.935,50.332,ER,Eger Rift
+138,1,12.833,50.293,ER,Eger Rift
+139,0,13.722,50.352,ER,Eger Rift
+139,1,13.69,50.342,ER,Eger Rift
+139,2,13.682,50.338,ER,Eger Rift
+140,0,13.682,50.338,ER,Eger Rift
+140,1,13.652,50.328,ER,Eger Rift
+140,2,13.625,50.315,ER,Eger Rift
+141,0,12.515,50.202,ER,Eger Rift
+141,1,12.669,50.245,ER,Eger Rift
+142,0,14.266,50.787,ER,Eger Rift
+142,1,14.293,50.791,ER,Eger Rift
+142,2,14.304,50.793,ER,Eger Rift
+142,3,14.359,50.81,ER,Eger Rift
+142,4,14.39,50.822,ER,Eger Rift
+142,5,14.435,50.843,ER,Eger Rift
+142,6,14.459,50.856,ER,Eger Rift
+142,7,14.489,50.876,ER,Eger Rift
+142,8,14.519,50.897,ER,Eger Rift
+143,0,14.05,50.737,ER,Eger Rift
+143,1,14.13,50.758,ER,Eger Rift
+143,2,14.189,50.771,ER,Eger Rift
+143,3,14.266,50.787,ER,Eger Rift
+144,0,13.974,50.711,ER,Eger Rift
+144,1,14.032,50.732,ER,Eger Rift
+144,2,14.05,50.737,ER,Eger Rift
+145,0,13.876,50.677,ER,Eger Rift
+145,1,13.974,50.711,ER,Eger Rift
+146,0,13.786,50.645,ER,Eger Rift
+146,1,13.832,50.66,ER,Eger Rift
+146,2,13.876,50.677,ER,Eger Rift
+147,0,14.599,50.608,ER,Eger Rift
+147,1,14.571,50.611,ER,Eger Rift
+147,2,14.541,50.61,ER,Eger Rift
+147,3,14.514,50.609,ER,Eger Rift
+147,4,14.485,50.606,ER,Eger Rift
+147,5,14.454,50.602,ER,Eger Rift
+147,6,14.428,50.598,ER,Eger Rift
+147,7,14.415,50.594,ER,Eger Rift
+148,0,13.481,50.528,ER,Eger Rift
+148,1,13.602,50.574,ER,Eger Rift
+149,0,14.415,50.594,ER,Eger Rift
+149,1,14.367,50.589,ER,Eger Rift
+149,2,14.316,50.586,ER,Eger Rift
+150,0,14.316,50.586,ER,Eger Rift
+150,1,14.287,50.585,ER,Eger Rift
+151,0,13.297,50.451,ER,Eger Rift
+151,1,13.387,50.49,ER,Eger Rift
+151,2,13.481,50.528,ER,Eger Rift
+152,0,13.221,50.414,ER,Eger Rift
+152,1,13.297,50.451,ER,Eger Rift
+153,0,12.452,50.19,ER,Eger Rift
+153,1,12.489,50.196,ER,Eger Rift
+153,2,12.515,50.202,ER,Eger Rift
+154,0,12.703,50.184,ER,Eger Rift
+154,1,12.637,50.16,ER,Eger Rift
+154,2,12.627,50.158,ER,Eger Rift
+155,0,12.627,50.158,ER,Eger Rift
+155,1,12.494,50.125,ER,Eger Rift
+156,0,13.428,50.377,ER,Eger Rift
+156,1,13.541,50.43,ER,Eger Rift
+157,0,13.681,50.382,ER,Eger Rift
+157,1,13.643,50.372,ER,Eger Rift
+158,0,13.345,50.341,ER,Eger Rift
+158,1,13.272,50.315,ER,Eger Rift
+159,0,12.833,50.293,ER,Eger Rift
+159,1,12.734,50.267,ER,Eger Rift
+160,0,13.448,50.259,ER,Eger Rift
+160,1,13.537,50.285,ER,Eger Rift
+160,2,13.625,50.315,ER,Eger Rift
+161,0,13.822,50.382,ER,Eger Rift
+161,1,13.864,50.398,ER,Eger Rift
+162,0,12.882,50.241,ER,Eger Rift
+162,1,12.703,50.184,ER,Eger Rift
+188,0,10.912,50.435,FL,Franconian Line
+188,1,10.9,50.442,FL,Franconian Line
+188,2,10.891,50.449,FL,Franconian Line
+188,3,10.873,50.473,FL,Franconian Line
+188,4,10.85,50.496,FL,Franconian Line
+189,0,11.154,50.375,FL,Franconian Line
+189,1,11.167,50.371,FL,Franconian Line
+189,2,11.191,50.362,FL,Franconian Line
+189,3,11.23,50.34,FL,Franconian Line
+189,4,11.245,50.33,FL,Franconian Line
+190,0,10.839,50.511,FL,Franconian Line
+190,1,10.828,50.515,FL,Franconian Line
+190,2,10.82,50.521,FL,Franconian Line
+190,3,10.801,50.543,FL,Franconian Line
+190,4,10.789,50.559,FL,Franconian Line
+191,0,10.85,50.496,FL,Franconian Line
+191,1,10.842,50.503,FL,Franconian Line
+191,2,10.839,50.511,FL,Franconian Line
+192,0,11.135,50.383,FL,Franconian Line
+192,1,11.123,50.39,FL,Franconian Line
+192,2,11.111,50.392,FL,Franconian Line
+192,3,11.104,50.394,FL,Franconian Line
+192,4,11.085,50.404,FL,Franconian Line
+192,5,11.066,50.409,FL,Franconian Line
+192,6,11.049,50.418,FL,Franconian Line
+192,7,11.028,50.422,FL,Franconian Line
+192,8,10.996,50.434,FL,Franconian Line
+192,9,10.97,50.442,FL,Franconian Line
+193,0,11.135,50.383,FL,Franconian Line
+193,1,11.144,50.378,FL,Franconian Line
+193,2,11.154,50.375,FL,Franconian Line
+194,0,10.597,50.693,FL,Franconian Line
+194,1,10.587,50.697,FL,Franconian Line
+194,2,10.57,50.702,FL,Franconian Line
+194,3,10.563,50.704,FL,Franconian Line
+194,4,10.559,50.705,FL,Franconian Line
+194,5,10.555,50.706,FL,Franconian Line
+194,6,10.551,50.708,FL,Franconian Line
+194,7,10.543,50.712,FL,Franconian Line
+194,8,10.536,50.716,FL,Franconian Line
+194,9,10.523,50.726,FL,Franconian Line
+194,10,10.516,50.734,FL,Franconian Line
+194,11,10.503,50.746,FL,Franconian Line
+194,12,10.492,50.756,FL,Franconian Line
+194,13,10.487,50.761,FL,Franconian Line
+195,0,10.691,50.613,FL,Franconian Line
+195,1,10.692,50.613,FL,Franconian Line
+195,2,10.693,50.613,FL,Franconian Line
+195,3,10.703,50.61,FL,Franconian Line
+195,4,10.711,50.606,FL,Franconian Line
+196,0,11.362,50.281,FL,Franconian Line
+196,1,11.294,50.273,FL,Franconian Line
+196,2,11.281,50.271,FL,Franconian Line
+196,3,11.263,50.271,FL,Franconian Line
+196,4,11.259,50.279,FL,Franconian Line
+196,5,11.256,50.288,FL,Franconian Line
+196,6,11.253,50.296,FL,Franconian Line
+196,7,11.249,50.313,FL,Franconian Line
+196,8,11.245,50.33,FL,Franconian Line
+197,0,11.437,50.231,FL,Franconian Line
+197,1,11.436,50.239,FL,Franconian Line
+197,2,11.433,50.247,FL,Franconian Line
+197,3,11.426,50.255,FL,Franconian Line
+197,4,11.419,50.261,FL,Franconian Line
+197,5,11.409,50.267,FL,Franconian Line
+197,6,11.396,50.269,FL,Franconian Line
+197,7,11.362,50.281,FL,Franconian Line
+198,0,11.991,49.851,FL,Franconian Line
+198,1,12.019,49.835,FL,Franconian Line
+198,2,12.035,49.824,FL,Franconian Line
+198,3,12.057,49.807,FL,Franconian Line
+198,4,12.084,49.783,FL,Franconian Line
+198,5,12.095,49.777,FL,Franconian Line
+198,6,12.108,49.77,FL,Franconian Line
+198,7,12.121,49.758,FL,Franconian Line
+198,8,12.139,49.75,FL,Franconian Line
+199,0,12.139,49.75,FL,Franconian Line
+199,1,12.158,49.737,FL,Franconian Line
+199,2,12.173,49.719,FL,Franconian Line
+199,3,12.182,49.706,FL,Franconian Line
+199,4,12.183,49.705,FL,Franconian Line
+199,5,12.183,49.705,FL,Franconian Line
+200,0,10.4,50.795,FL,Franconian Line
+200,1,10.375,50.806,FL,Franconian Line
+200,2,10.337,50.815,FL,Franconian Line
+200,3,10.316,50.823,FL,Franconian Line
+200,4,10.312,50.825,FL,Franconian Line
+201,0,10.4,50.795,FL,Franconian Line
+201,1,10.487,50.761,FL,Franconian Line
+202,0,10.778,50.572,FL,Franconian Line
+202,1,10.723,50.597,FL,Franconian Line
+202,2,10.711,50.606,FL,Franconian Line
+203,0,10.778,50.572,FL,Franconian Line
+203,1,10.789,50.559,FL,Franconian Line
+204,0,10.597,50.693,FL,Franconian Line
+204,1,10.608,50.685,FL,Franconian Line
+204,2,10.616,50.675,FL,Franconian Line
+204,3,10.624,50.66,FL,Franconian Line
+204,4,10.632,50.642,FL,Franconian Line
+204,5,10.639,50.635,FL,Franconian Line
+204,6,10.646,50.628,FL,Franconian Line
+204,7,10.658,50.622,FL,Franconian Line
+204,8,10.671,50.618,FL,Franconian Line
+204,9,10.691,50.613,FL,Franconian Line
+205,0,11.437,50.231,FL,Franconian Line
+205,1,11.448,50.217,FL,Franconian Line
+205,2,11.467,50.206,FL,Franconian Line
+205,3,11.51,50.177,FL,Franconian Line
+205,4,11.517,50.171,FL,Franconian Line
+205,5,11.528,50.157,FL,Franconian Line
+206,0,11.528,50.157,FL,Franconian Line
+206,1,11.532,50.159,FL,Franconian Line
+206,2,11.537,50.16,FL,Franconian Line
+206,3,11.542,50.159,FL,Franconian Line
+206,4,11.546,50.157,FL,Franconian Line
+207,0,11.546,50.157,FL,Franconian Line
+207,1,11.581,50.137,FL,Franconian Line
+208,0,11.581,50.137,FL,Franconian Line
+208,1,11.597,50.125,FL,Franconian Line
+208,2,11.607,50.116,FL,Franconian Line
+208,3,11.619,50.102,FL,Franconian Line
+208,4,11.631,50.085,FL,Franconian Line
+208,5,11.639,50.078,FL,Franconian Line
+208,6,11.645,50.072,FL,Franconian Line
+209,0,11.645,50.072,FL,Franconian Line
+209,1,11.655,50.064,FL,Franconian Line
+209,2,11.67,50.054,FL,Franconian Line
+210,0,11.67,50.054,FL,Franconian Line
+210,1,11.729,50.043,FL,Franconian Line
+211,0,11.729,50.043,FL,Franconian Line
+211,1,11.752,50.032,FL,Franconian Line
+211,2,11.801,50.02,FL,Franconian Line
+212,0,11.801,50.02,FL,Franconian Line
+212,1,11.825,50.011,FL,Franconian Line
+212,2,11.846,50.001,FL,Franconian Line
+212,3,11.859,49.993,FL,Franconian Line
+212,4,11.894,49.97,FL,Franconian Line
+213,0,11.894,49.97,FL,Franconian Line
+213,1,11.926,49.927,FL,Franconian Line
+214,0,11.936,49.919,FL,Franconian Line
+214,1,11.926,49.927,FL,Franconian Line
+215,0,11.936,49.919,FL,Franconian Line
+215,1,11.944,49.911,FL,Franconian Line
+215,2,11.953,49.904,FL,Franconian Line
+215,3,11.964,49.897,FL,Franconian Line
+215,4,11.975,49.892,FL,Franconian Line
+216,0,12.003,49.867,FL,Franconian Line
+216,1,11.994,49.875,FL,Franconian Line
+216,2,11.984,49.885,FL,Franconian Line
+216,3,11.975,49.892,FL,Franconian Line
+217,0,10.308,50.827,FL,Franconian Line
+217,1,10.154,50.906,FL,Franconian Line
+28,0,17.094,49.507,HFZ,Hana Faul Zone
+28,1,17.007,49.675,HFZ,Hana Faul Zone
+29,0,17.032,49.925,HFZ,Hana Faul Zone
+29,1,17.009,49.938,HFZ,Hana Faul Zone
+29,2,16.983,49.948,HFZ,Hana Faul Zone
+30,0,17.299,49.741,HFZ,Hana Faul Zone
+30,1,17.247,49.777,HFZ,Hana Faul Zone
+31,0,16.999,49.686,HFZ,Hana Faul Zone
+31,1,16.967,49.735,HFZ,Hana Faul Zone
+31,2,16.939,49.785,HFZ,Hana Faul Zone
+32,0,17.624,49.307,HFZ,Hana Faul Zone
+32,1,17.568,49.33,HFZ,Hana Faul Zone
+33,0,17.031,49.476,HFZ,Hana Faul Zone
+33,1,17.064,49.469,HFZ,Hana Faul Zone
+33,2,17.086,49.463,HFZ,Hana Faul Zone
+33,3,17.141,49.443,HFZ,Hana Faul Zone
+33,4,17.17,49.431,HFZ,Hana Faul Zone
+33,5,17.213,49.408,HFZ,Hana Faul Zone
+33,6,17.291,49.363,HFZ,Hana Faul Zone
+33,7,17.354,49.328,HFZ,Hana Faul Zone
+33,8,17.375,49.314,HFZ,Hana Faul Zone
+33,9,17.398,49.297,HFZ,Hana Faul Zone
+34,0,17.698,49.269,HFZ,Hana Faul Zone
+34,1,17.624,49.307,HFZ,Hana Faul Zone
+35,0,17.398,49.297,HFZ,Hana Faul Zone
+35,1,17.414,49.281,HFZ,Hana Faul Zone
+35,2,17.431,49.267,HFZ,Hana Faul Zone
+35,3,17.449,49.254,HFZ,Hana Faul Zone
+35,4,17.463,49.246,HFZ,Hana Faul Zone
+36,0,17.698,49.269,HFZ,Hana Faul Zone
+36,1,17.732,49.251,HFZ,Hana Faul Zone
+37,0,16.912,49.84,HFZ,Hana Faul Zone
+37,1,16.886,49.895,HFZ,Hana Faul Zone
+38,0,17.154,49.847,HFZ,Hana Faul Zone
+38,1,17.122,49.867,HFZ,Hana Faul Zone
+38,2,17.071,49.901,HFZ,Hana Faul Zone
+38,3,17.032,49.925,HFZ,Hana Faul Zone
+39,0,16.92,49.823,HFZ,Hana Faul Zone
+39,1,16.912,49.84,HFZ,Hana Faul Zone
+40,0,17.007,49.675,HFZ,Hana Faul Zone
+40,1,16.999,49.686,HFZ,Hana Faul Zone
+41,0,17.201,49.521,HFZ,Hana Faul Zone
+41,1,17.226,49.512,HFZ,Hana Faul Zone
+41,2,17.311,49.469,HFZ,Hana Faul Zone
+41,3,17.351,49.446,HFZ,Hana Faul Zone
+41,4,17.403,49.414,HFZ,Hana Faul Zone
+42,0,17.403,49.414,HFZ,Hana Faul Zone
+42,1,17.444,49.388,HFZ,Hana Faul Zone
+43,0,17.568,49.33,HFZ,Hana Faul Zone
+43,1,17.536,49.344,HFZ,Hana Faul Zone
+43,2,17.505,49.358,HFZ,Hana Faul Zone
+43,3,17.475,49.373,HFZ,Hana Faul Zone
+43,4,17.444,49.388,HFZ,Hana Faul Zone
+44,0,16.939,49.785,HFZ,Hana Faul Zone
+44,1,16.92,49.823,HFZ,Hana Faul Zone
+45,0,17.247,49.777,HFZ,Hana Faul Zone
+45,1,17.229,49.798,HFZ,Hana Faul Zone
+45,2,17.208,49.816,HFZ,Hana Faul Zone
+45,3,17.183,49.832,HFZ,Hana Faul Zone
+45,4,17.154,49.847,HFZ,Hana Faul Zone
+46,0,17.463,49.246,HFZ,Hana Faul Zone
+46,1,17.47,49.242,HFZ,Hana Faul Zone
+46,2,17.515,49.215,HFZ,Hana Faul Zone
+47,0,16.983,49.948,HFZ,Hana Faul Zone
+47,1,16.949,49.962,HFZ,Hana Faul Zone
+48,0,17.299,49.741,HFZ,Hana Faul Zone
+48,1,17.357,49.695,HFZ,Hana Faul Zone
+48,2,17.428,49.633,HFZ,Hana Faul Zone
+48,3,17.438,49.623,HFZ,Hana Faul Zone
+49,0,16.989,49.482,HFZ,Hana Faul Zone
+49,1,17.031,49.476,HFZ,Hana Faul Zone
+50,0,17.747,49.243,HFZ,Hana Faul Zone
+50,1,17.81,49.209,HFZ,Hana Faul Zone
+51,0,17.515,49.215,HFZ,Hana Faul Zone
+51,1,17.556,49.192,HFZ,Hana Faul Zone
+83,0,14.736,51.281,ISF,IntraSudetic Fault
+83,1,14.746,51.276,ISF,IntraSudetic Fault
+83,2,14.758,51.272,ISF,IntraSudetic Fault
+84,0,14.806,51.257,ISF,IntraSudetic Fault
+84,1,14.758,51.272,ISF,IntraSudetic Fault
+85,0,14.806,51.257,ISF,IntraSudetic Fault
+85,1,14.821,51.253,ISF,IntraSudetic Fault
+85,2,14.861,51.233,ISF,IntraSudetic Fault
+85,3,14.882,51.222,ISF,IntraSudetic Fault
+86,0,14.991,51.191,ISF,IntraSudetic Fault
+86,1,14.976,51.194,ISF,IntraSudetic Fault
+86,2,14.952,51.198,ISF,IntraSudetic Fault
+86,3,14.924,51.205,ISF,IntraSudetic Fault
+86,4,14.882,51.222,ISF,IntraSudetic Fault
+87,0,14.991,51.191,ISF,IntraSudetic Fault
+87,1,14.991,51.191,ISF,IntraSudetic Fault
+87,2,14.991,51.191,ISF,IntraSudetic Fault
+87,3,15.071,51.18,ISF,IntraSudetic Fault
+87,4,15.128,51.174,ISF,IntraSudetic Fault
+87,5,15.169,51.17,ISF,IntraSudetic Fault
+87,6,15.205,51.165,ISF,IntraSudetic Fault
+87,7,15.242,51.156,ISF,IntraSudetic Fault
+87,8,15.282,51.14,ISF,IntraSudetic Fault
+87,9,15.317,51.123,ISF,IntraSudetic Fault
+87,10,15.338,51.112,ISF,IntraSudetic Fault
+87,11,15.398,51.13,ISF,IntraSudetic Fault
+87,12,15.427,51.106,ISF,IntraSudetic Fault
+87,13,15.459,51.084,ISF,IntraSudetic Fault
+87,14,15.496,51.059,ISF,IntraSudetic Fault
+87,15,15.542,51.031,ISF,IntraSudetic Fault
+87,16,15.597,50.997,ISF,IntraSudetic Fault
+87,17,15.658,50.954,ISF,IntraSudetic Fault
+87,18,15.675,50.934,ISF,IntraSudetic Fault
+87,19,15.686,50.921,ISF,IntraSudetic Fault
+88,0,15.754,50.898,ISF,IntraSudetic Fault
+88,1,15.715,50.909,ISF,IntraSudetic Fault
+88,2,15.686,50.921,ISF,IntraSudetic Fault
+89,0,15.944,50.839,ISF,IntraSudetic Fault
+89,1,15.936,50.844,ISF,IntraSudetic Fault
+89,2,15.93,50.849,ISF,IntraSudetic Fault
+89,3,15.92,50.853,ISF,IntraSudetic Fault
+89,4,15.904,50.858,ISF,IntraSudetic Fault
+89,5,15.857,50.872,ISF,IntraSudetic Fault
+89,6,15.758,50.897,ISF,IntraSudetic Fault
+90,0,15.944,50.839,ISF,IntraSudetic Fault
+90,1,15.978,50.834,ISF,IntraSudetic Fault
+90,2,16.032,50.831,ISF,IntraSudetic Fault
+91,0,16.192,50.839,ISF,IntraSudetic Fault
+91,1,16.106,50.837,ISF,IntraSudetic Fault
+91,2,16.032,50.831,ISF,IntraSudetic Fault
+92,0,16.348,50.846,ISF,IntraSudetic Fault
+92,1,16.296,50.841,ISF,IntraSudetic Fault
+92,2,16.192,50.839,ISF,IntraSudetic Fault
+114,0,13.616,50.579,KHF,Krusne Hrory Fault
+114,1,13.786,50.645,KHF,Krusne Hrory Fault
+115,0,13.602,50.574,KHF,Krusne Hrory Fault
+115,1,13.616,50.579,KHF,Krusne Hrory Fault
+116,0,13.221,50.414,KHF,Krusne Hrory Fault
+116,1,13.175,50.41,KHF,Krusne Hrory Fault
+116,2,13.15,50.404,KHF,Krusne Hrory Fault
+116,3,13.139,50.401,KHF,Krusne Hrory Fault
+116,4,13.126,50.395,KHF,Krusne Hrory Fault
+116,5,13.114,50.389,KHF,Krusne Hrory Fault
+116,6,13.101,50.382,KHF,Krusne Hrory Fault
+116,7,13.092,50.378,KHF,Krusne Hrory Fault
+116,8,13.069,50.373,KHF,Krusne Hrory Fault
+116,9,13.031,50.37,KHF,Krusne Hrory Fault
+116,10,13.01,50.365,KHF,Krusne Hrory Fault
+116,11,12.989,50.355,KHF,Krusne Hrory Fault
+116,12,12.969,50.343,KHF,Krusne Hrory Fault
+117,0,12.969,50.343,KHF,Krusne Hrory Fault
+117,1,12.935,50.332,KHF,Krusne Hrory Fault
+118,0,12.935,50.332,KHF,Krusne Hrory Fault
+118,1,12.833,50.293,KHF,Krusne Hrory Fault
+119,0,12.515,50.202,KHF,Krusne Hrory Fault
+119,1,12.669,50.245,KHF,Krusne Hrory Fault
+120,0,14.266,50.787,KHF,Krusne Hrory Fault
+120,1,14.293,50.791,KHF,Krusne Hrory Fault
+120,2,14.304,50.793,KHF,Krusne Hrory Fault
+120,3,14.359,50.81,KHF,Krusne Hrory Fault
+120,4,14.39,50.822,KHF,Krusne Hrory Fault
+120,5,14.435,50.843,KHF,Krusne Hrory Fault
+120,6,14.459,50.856,KHF,Krusne Hrory Fault
+120,7,14.489,50.876,KHF,Krusne Hrory Fault
+120,8,14.519,50.897,KHF,Krusne Hrory Fault
+121,0,14.05,50.737,KHF,Krusne Hrory Fault
+121,1,14.13,50.758,KHF,Krusne Hrory Fault
+121,2,14.189,50.771,KHF,Krusne Hrory Fault
+121,3,14.266,50.787,KHF,Krusne Hrory Fault
+122,0,13.974,50.711,KHF,Krusne Hrory Fault
+122,1,14.032,50.732,KHF,Krusne Hrory Fault
+122,2,14.05,50.737,KHF,Krusne Hrory Fault
+123,0,13.876,50.677,KHF,Krusne Hrory Fault
+123,1,13.974,50.711,KHF,Krusne Hrory Fault
+124,0,13.786,50.645,KHF,Krusne Hrory Fault
+124,1,13.832,50.66,KHF,Krusne Hrory Fault
+124,2,13.876,50.677,KHF,Krusne Hrory Fault
+125,0,13.481,50.528,KHF,Krusne Hrory Fault
+125,1,13.602,50.574,KHF,Krusne Hrory Fault
+126,0,13.297,50.451,KHF,Krusne Hrory Fault
+126,1,13.387,50.49,KHF,Krusne Hrory Fault
+126,2,13.481,50.528,KHF,Krusne Hrory Fault
+127,0,13.221,50.414,KHF,Krusne Hrory Fault
+127,1,13.297,50.451,KHF,Krusne Hrory Fault
+128,0,12.452,50.19,KHF,Krusne Hrory Fault
+128,1,12.489,50.196,KHF,Krusne Hrory Fault
+128,2,12.515,50.202,KHF,Krusne Hrory Fault
+129,0,12.833,50.293,KHF,Krusne Hrory Fault
+129,1,12.734,50.267,KHF,Krusne Hrory Fault
+163,0,12.291,50.328,MLF,Marianske Lazne Fault
+163,1,12.304,50.315,MLF,Marianske Lazne Fault
+163,2,12.318,50.303,MLF,Marianske Lazne Fault
+163,3,12.33,50.295,MLF,Marianske Lazne Fault
+163,4,12.342,50.288,MLF,Marianske Lazne Fault
+164,0,12.342,50.288,MLF,Marianske Lazne Fault
+164,1,12.353,50.282,MLF,Marianske Lazne Fault
+164,2,12.357,50.268,MLF,Marianske Lazne Fault
+164,3,12.357,50.268,MLF,Marianske Lazne Fault
+165,0,12.552,50.058,MLF,Marianske Lazne Fault
+165,1,12.499,50.095,MLF,Marianske Lazne Fault
+166,0,12.576,50.043,MLF,Marianske Lazne Fault
+166,1,12.561,50.053,MLF,Marianske Lazne Fault
+167,0,12.586,50.037,MLF,Marianske Lazne Fault
+167,1,12.576,50.043,MLF,Marianske Lazne Fault
+168,0,12.618,50.018,MLF,Marianske Lazne Fault
+168,1,12.586,50.037,MLF,Marianske Lazne Fault
+169,0,12.718,49.878,MLF,Marianske Lazne Fault
+169,1,12.703,49.935,MLF,Marianske Lazne Fault
+169,2,12.696,49.947,MLF,Marianske Lazne Fault
+169,3,12.685,49.963,MLF,Marianske Lazne Fault
+170,0,12.731,49.835,MLF,Marianske Lazne Fault
+170,1,12.732,49.847,MLF,Marianske Lazne Fault
+170,2,12.73,49.858,MLF,Marianske Lazne Fault
+170,3,12.725,49.869,MLF,Marianske Lazne Fault
+170,4,12.718,49.878,MLF,Marianske Lazne Fault
+171,0,12.405,50.235,MLF,Marianske Lazne Fault
+171,1,12.38,50.251,MLF,Marianske Lazne Fault
+171,2,12.357,50.268,MLF,Marianske Lazne Fault
+171,3,12.357,50.268,MLF,Marianske Lazne Fault
+172,0,12.436,50.207,MLF,Marianske Lazne Fault
+172,1,12.405,50.235,MLF,Marianske Lazne Fault
+173,0,12.656,49.991,MLF,Marianske Lazne Fault
+173,1,12.618,50.018,MLF,Marianske Lazne Fault
+174,0,12.88,49.57,MLF,Marianske Lazne Fault
+174,1,12.871,49.596,MLF,Marianske Lazne Fault
+174,2,12.863,49.61,MLF,Marianske Lazne Fault
+174,3,12.859,49.617,MLF,Marianske Lazne Fault
+174,4,12.824,49.615,MLF,Marianske Lazne Fault
+175,0,12.782,49.661,MLF,Marianske Lazne Fault
+175,1,12.78,49.669,MLF,Marianske Lazne Fault
+175,2,12.772,49.689,MLF,Marianske Lazne Fault
+175,3,12.767,49.704,MLF,Marianske Lazne Fault
+175,4,12.765,49.717,MLF,Marianske Lazne Fault
+175,5,12.762,49.743,MLF,Marianske Lazne Fault
+175,6,12.757,49.762,MLF,Marianske Lazne Fault
+175,7,12.731,49.835,MLF,Marianske Lazne Fault
+176,0,12.897,49.534,MLF,Marianske Lazne Fault
+176,1,12.88,49.57,MLF,Marianske Lazne Fault
+177,0,12.452,50.19,MLF,Marianske Lazne Fault
+177,1,12.436,50.207,MLF,Marianske Lazne Fault
+178,0,12.452,50.19,MLF,Marianske Lazne Fault
+178,1,12.464,50.174,MLF,Marianske Lazne Fault
+178,2,12.476,50.157,MLF,Marianske Lazne Fault
+178,3,12.486,50.141,MLF,Marianske Lazne Fault
+178,4,12.494,50.125,MLF,Marianske Lazne Fault
+179,0,12.685,49.963,MLF,Marianske Lazne Fault
+179,1,12.672,49.977,MLF,Marianske Lazne Fault
+179,2,12.656,49.991,MLF,Marianske Lazne Fault
+180,0,12.453,50.13,MLF,Marianske Lazne Fault
+180,1,12.499,50.095,MLF,Marianske Lazne Fault
+181,0,12.274,50.337,MLF,Marianske Lazne Fault
+181,1,12.291,50.328,MLF,Marianske Lazne Fault
+182,0,12.897,49.534,MLF,Marianske Lazne Fault
+182,1,12.931,49.466,MLF,Marianske Lazne Fault
+218,0,10.912,50.435,PFSZ,Pfahl Shear Zone
+218,1,10.9,50.442,PFSZ,Pfahl Shear Zone
+218,2,10.891,50.449,PFSZ,Pfahl Shear Zone
+218,3,10.873,50.473,PFSZ,Pfahl Shear Zone
+218,4,10.85,50.496,PFSZ,Pfahl Shear Zone
+219,0,11.154,50.375,PFSZ,Pfahl Shear Zone
+219,1,11.167,50.371,PFSZ,Pfahl Shear Zone
+219,2,11.191,50.362,PFSZ,Pfahl Shear Zone
+219,3,11.23,50.34,PFSZ,Pfahl Shear Zone
+219,4,11.245,50.33,PFSZ,Pfahl Shear Zone
+220,0,10.839,50.511,PFSZ,Pfahl Shear Zone
+220,1,10.828,50.515,PFSZ,Pfahl Shear Zone
+220,2,10.82,50.521,PFSZ,Pfahl Shear Zone
+220,3,10.801,50.543,PFSZ,Pfahl Shear Zone
+220,4,10.789,50.559,PFSZ,Pfahl Shear Zone
+221,0,10.85,50.496,PFSZ,Pfahl Shear Zone
+221,1,10.842,50.503,PFSZ,Pfahl Shear Zone
+221,2,10.839,50.511,PFSZ,Pfahl Shear Zone
+222,0,11.135,50.383,PFSZ,Pfahl Shear Zone
+222,1,11.123,50.39,PFSZ,Pfahl Shear Zone
+222,2,11.111,50.392,PFSZ,Pfahl Shear Zone
+222,3,11.104,50.394,PFSZ,Pfahl Shear Zone
+222,4,11.085,50.404,PFSZ,Pfahl Shear Zone
+222,5,11.066,50.409,PFSZ,Pfahl Shear Zone
+222,6,11.049,50.418,PFSZ,Pfahl Shear Zone
+222,7,11.028,50.422,PFSZ,Pfahl Shear Zone
+222,8,10.996,50.434,PFSZ,Pfahl Shear Zone
+222,9,10.97,50.442,PFSZ,Pfahl Shear Zone
+223,0,11.135,50.383,PFSZ,Pfahl Shear Zone
+223,1,11.144,50.378,PFSZ,Pfahl Shear Zone
+223,2,11.154,50.375,PFSZ,Pfahl Shear Zone
+224,0,10.597,50.693,PFSZ,Pfahl Shear Zone
+224,1,10.587,50.697,PFSZ,Pfahl Shear Zone
+224,2,10.57,50.702,PFSZ,Pfahl Shear Zone
+224,3,10.563,50.704,PFSZ,Pfahl Shear Zone
+224,4,10.559,50.705,PFSZ,Pfahl Shear Zone
+224,5,10.555,50.706,PFSZ,Pfahl Shear Zone
+224,6,10.551,50.708,PFSZ,Pfahl Shear Zone
+224,7,10.543,50.712,PFSZ,Pfahl Shear Zone
+224,8,10.536,50.716,PFSZ,Pfahl Shear Zone
+224,9,10.523,50.726,PFSZ,Pfahl Shear Zone
+224,10,10.516,50.734,PFSZ,Pfahl Shear Zone
+224,11,10.503,50.746,PFSZ,Pfahl Shear Zone
+224,12,10.492,50.756,PFSZ,Pfahl Shear Zone
+224,13,10.487,50.761,PFSZ,Pfahl Shear Zone
+225,0,10.691,50.613,PFSZ,Pfahl Shear Zone
+225,1,10.692,50.613,PFSZ,Pfahl Shear Zone
+225,2,10.693,50.613,PFSZ,Pfahl Shear Zone
+225,3,10.703,50.61,PFSZ,Pfahl Shear Zone
+225,4,10.711,50.606,PFSZ,Pfahl Shear Zone
+226,0,11.362,50.281,PFSZ,Pfahl Shear Zone
+226,1,11.294,50.273,PFSZ,Pfahl Shear Zone
+226,2,11.281,50.271,PFSZ,Pfahl Shear Zone
+226,3,11.263,50.271,PFSZ,Pfahl Shear Zone
+226,4,11.259,50.279,PFSZ,Pfahl Shear Zone
+226,5,11.256,50.288,PFSZ,Pfahl Shear Zone
+226,6,11.253,50.296,PFSZ,Pfahl Shear Zone
+226,7,11.249,50.313,PFSZ,Pfahl Shear Zone
+226,8,11.245,50.33,PFSZ,Pfahl Shear Zone
+227,0,11.437,50.231,PFSZ,Pfahl Shear Zone
+227,1,11.436,50.239,PFSZ,Pfahl Shear Zone
+227,2,11.433,50.247,PFSZ,Pfahl Shear Zone
+227,3,11.426,50.255,PFSZ,Pfahl Shear Zone
+227,4,11.419,50.261,PFSZ,Pfahl Shear Zone
+227,5,11.409,50.267,PFSZ,Pfahl Shear Zone
+227,6,11.396,50.269,PFSZ,Pfahl Shear Zone
+227,7,11.362,50.281,PFSZ,Pfahl Shear Zone
+228,0,12.207,49.352,PFSZ,Pfahl Shear Zone
+228,1,12.126,49.379,PFSZ,Pfahl Shear Zone
+229,0,12.508,49.251,PFSZ,Pfahl Shear Zone
+229,1,12.489,49.253,PFSZ,Pfahl Shear Zone
+229,2,12.477,49.256,PFSZ,Pfahl Shear Zone
+229,3,12.436,49.271,PFSZ,Pfahl Shear Zone
+229,4,12.403,49.286,PFSZ,Pfahl Shear Zone
+229,5,12.342,49.316,PFSZ,Pfahl Shear Zone
+229,6,12.314,49.328,PFSZ,Pfahl Shear Zone
+229,7,12.288,49.337,PFSZ,Pfahl Shear Zone
+229,8,12.276,49.341,PFSZ,Pfahl Shear Zone
+229,9,12.262,49.344,PFSZ,Pfahl Shear Zone
+229,10,12.248,49.346,PFSZ,Pfahl Shear Zone
+229,11,12.225,49.348,PFSZ,Pfahl Shear Zone
+229,12,12.207,49.352,PFSZ,Pfahl Shear Zone
+230,0,12.554,49.227,PFSZ,Pfahl Shear Zone
+230,1,12.551,49.229,PFSZ,Pfahl Shear Zone
+230,2,12.541,49.234,PFSZ,Pfahl Shear Zone
+230,3,12.528,49.239,PFSZ,Pfahl Shear Zone
+230,4,12.524,49.244,PFSZ,Pfahl Shear Zone
+230,5,12.515,49.248,PFSZ,Pfahl Shear Zone
+230,6,12.511,49.249,PFSZ,Pfahl Shear Zone
+230,7,12.508,49.251,PFSZ,Pfahl Shear Zone
+231,0,11.991,49.851,PFSZ,Pfahl Shear Zone
+231,1,12.019,49.835,PFSZ,Pfahl Shear Zone
+231,2,12.035,49.824,PFSZ,Pfahl Shear Zone
+231,3,12.057,49.807,PFSZ,Pfahl Shear Zone
+231,4,12.084,49.783,PFSZ,Pfahl Shear Zone
+231,5,12.095,49.777,PFSZ,Pfahl Shear Zone
+231,6,12.108,49.77,PFSZ,Pfahl Shear Zone
+231,7,12.121,49.758,PFSZ,Pfahl Shear Zone
+231,8,12.139,49.75,PFSZ,Pfahl Shear Zone
+232,0,12.139,49.75,PFSZ,Pfahl Shear Zone
+232,1,12.158,49.737,PFSZ,Pfahl Shear Zone
+232,2,12.173,49.719,PFSZ,Pfahl Shear Zone
+232,3,12.182,49.706,PFSZ,Pfahl Shear Zone
+232,4,12.183,49.705,PFSZ,Pfahl Shear Zone
+232,5,12.183,49.705,PFSZ,Pfahl Shear Zone
+233,0,10.4,50.795,PFSZ,Pfahl Shear Zone
+233,1,10.375,50.806,PFSZ,Pfahl Shear Zone
+233,2,10.337,50.815,PFSZ,Pfahl Shear Zone
+233,3,10.316,50.823,PFSZ,Pfahl Shear Zone
+233,4,10.312,50.825,PFSZ,Pfahl Shear Zone
+234,0,10.4,50.795,PFSZ,Pfahl Shear Zone
+234,1,10.487,50.761,PFSZ,Pfahl Shear Zone
+235,0,13.249,48.933,PFSZ,Pfahl Shear Zone
+235,1,13.297,48.918,PFSZ,Pfahl Shear Zone
+235,2,13.38,48.906,PFSZ,Pfahl Shear Zone
+235,3,13.443,48.899,PFSZ,Pfahl Shear Zone
+235,4,13.508,48.892,PFSZ,Pfahl Shear Zone
+235,5,13.574,48.875,PFSZ,Pfahl Shear Zone
+235,6,13.633,48.85,PFSZ,Pfahl Shear Zone
+235,7,13.686,48.825,PFSZ,Pfahl Shear Zone
+236,0,13.686,48.825,PFSZ,Pfahl Shear Zone
+236,1,13.706,48.815,PFSZ,Pfahl Shear Zone
+236,2,13.773,48.779,PFSZ,Pfahl Shear Zone
+236,3,13.802,48.76,PFSZ,Pfahl Shear Zone
+237,0,13.802,48.76,PFSZ,Pfahl Shear Zone
+237,1,13.854,48.724,PFSZ,Pfahl Shear Zone
+238,0,10.778,50.572,PFSZ,Pfahl Shear Zone
+238,1,10.723,50.597,PFSZ,Pfahl Shear Zone
+238,2,10.711,50.606,PFSZ,Pfahl Shear Zone
+239,0,10.778,50.572,PFSZ,Pfahl Shear Zone
+239,1,10.789,50.559,PFSZ,Pfahl Shear Zone
+240,0,10.597,50.693,PFSZ,Pfahl Shear Zone
+240,1,10.608,50.685,PFSZ,Pfahl Shear Zone
+240,2,10.616,50.675,PFSZ,Pfahl Shear Zone
+240,3,10.624,50.66,PFSZ,Pfahl Shear Zone
+240,4,10.632,50.642,PFSZ,Pfahl Shear Zone
+240,5,10.639,50.635,PFSZ,Pfahl Shear Zone
+240,6,10.646,50.628,PFSZ,Pfahl Shear Zone
+240,7,10.658,50.622,PFSZ,Pfahl Shear Zone
+240,8,10.671,50.618,PFSZ,Pfahl Shear Zone
+240,9,10.691,50.613,PFSZ,Pfahl Shear Zone
+241,0,11.437,50.231,PFSZ,Pfahl Shear Zone
+241,1,11.448,50.217,PFSZ,Pfahl Shear Zone
+241,2,11.467,50.206,PFSZ,Pfahl Shear Zone
+241,3,11.51,50.177,PFSZ,Pfahl Shear Zone
+241,4,11.517,50.171,PFSZ,Pfahl Shear Zone
+241,5,11.528,50.157,PFSZ,Pfahl Shear Zone
+242,0,11.528,50.157,PFSZ,Pfahl Shear Zone
+242,1,11.532,50.159,PFSZ,Pfahl Shear Zone
+242,2,11.537,50.16,PFSZ,Pfahl Shear Zone
+242,3,11.542,50.159,PFSZ,Pfahl Shear Zone
+242,4,11.546,50.157,PFSZ,Pfahl Shear Zone
+243,0,11.546,50.157,PFSZ,Pfahl Shear Zone
+243,1,11.581,50.137,PFSZ,Pfahl Shear Zone
+244,0,11.581,50.137,PFSZ,Pfahl Shear Zone
+244,1,11.597,50.125,PFSZ,Pfahl Shear Zone
+244,2,11.607,50.116,PFSZ,Pfahl Shear Zone
+244,3,11.619,50.102,PFSZ,Pfahl Shear Zone
+244,4,11.631,50.085,PFSZ,Pfahl Shear Zone
+244,5,11.639,50.078,PFSZ,Pfahl Shear Zone
+244,6,11.645,50.072,PFSZ,Pfahl Shear Zone
+245,0,11.645,50.072,PFSZ,Pfahl Shear Zone
+245,1,11.655,50.064,PFSZ,Pfahl Shear Zone
+245,2,11.67,50.054,PFSZ,Pfahl Shear Zone
+246,0,11.67,50.054,PFSZ,Pfahl Shear Zone
+246,1,11.729,50.043,PFSZ,Pfahl Shear Zone
+247,0,11.729,50.043,PFSZ,Pfahl Shear Zone
+247,1,11.752,50.032,PFSZ,Pfahl Shear Zone
+247,2,11.801,50.02,PFSZ,Pfahl Shear Zone
+248,0,11.801,50.02,PFSZ,Pfahl Shear Zone
+248,1,11.825,50.011,PFSZ,Pfahl Shear Zone
+248,2,11.846,50.001,PFSZ,Pfahl Shear Zone
+248,3,11.859,49.993,PFSZ,Pfahl Shear Zone
+248,4,11.894,49.97,PFSZ,Pfahl Shear Zone
+249,0,11.894,49.97,PFSZ,Pfahl Shear Zone
+249,1,11.926,49.927,PFSZ,Pfahl Shear Zone
+250,0,11.936,49.919,PFSZ,Pfahl Shear Zone
+250,1,11.926,49.927,PFSZ,Pfahl Shear Zone
+251,0,11.936,49.919,PFSZ,Pfahl Shear Zone
+251,1,11.944,49.911,PFSZ,Pfahl Shear Zone
+251,2,11.953,49.904,PFSZ,Pfahl Shear Zone
+251,3,11.964,49.897,PFSZ,Pfahl Shear Zone
+251,4,11.975,49.892,PFSZ,Pfahl Shear Zone
+252,0,12.003,49.867,PFSZ,Pfahl Shear Zone
+252,1,11.994,49.875,PFSZ,Pfahl Shear Zone
+252,2,11.984,49.885,PFSZ,Pfahl Shear Zone
+252,3,11.975,49.892,PFSZ,Pfahl Shear Zone
+253,0,11.666,49.55,PFSZ,Pfahl Shear Zone
+253,1,11.667,49.548,PFSZ,Pfahl Shear Zone
+253,2,11.67,49.545,PFSZ,Pfahl Shear Zone
+253,3,11.676,49.542,PFSZ,Pfahl Shear Zone
+253,4,11.698,49.534,PFSZ,Pfahl Shear Zone
+253,5,11.713,49.526,PFSZ,Pfahl Shear Zone
+253,6,11.723,49.52,PFSZ,Pfahl Shear Zone
+253,7,11.732,49.512,PFSZ,Pfahl Shear Zone
+253,8,11.75,49.494,PFSZ,Pfahl Shear Zone
+253,9,11.765,49.48,PFSZ,Pfahl Shear Zone
+253,10,11.781,49.469,PFSZ,Pfahl Shear Zone
+253,11,11.792,49.464,PFSZ,Pfahl Shear Zone
+253,12,11.806,49.458,PFSZ,Pfahl Shear Zone
+253,13,11.822,49.454,PFSZ,Pfahl Shear Zone
+253,14,11.843,49.45,PFSZ,Pfahl Shear Zone
+253,15,11.863,49.448,PFSZ,Pfahl Shear Zone
+253,16,11.88,49.446,PFSZ,Pfahl Shear Zone
+253,17,11.906,49.445,PFSZ,Pfahl Shear Zone
+253,18,11.921,49.444,PFSZ,Pfahl Shear Zone
+253,19,11.956,49.44,PFSZ,Pfahl Shear Zone
+253,20,11.98,49.438,PFSZ,Pfahl Shear Zone
+254,0,12.126,49.379,PFSZ,Pfahl Shear Zone
+254,1,12.118,49.385,PFSZ,Pfahl Shear Zone
+254,2,12.108,49.39,PFSZ,Pfahl Shear Zone
+254,3,12.1,49.392,PFSZ,Pfahl Shear Zone
+254,4,12.087,49.395,PFSZ,Pfahl Shear Zone
+254,5,12.07,49.402,PFSZ,Pfahl Shear Zone
+254,6,12.038,49.41,PFSZ,Pfahl Shear Zone
+254,7,12.019,49.417,PFSZ,Pfahl Shear Zone
+254,8,11.999,49.425,PFSZ,Pfahl Shear Zone
+254,9,11.98,49.438,PFSZ,Pfahl Shear Zone
+255,0,12.77,49.124,PFSZ,Pfahl Shear Zone
+255,1,12.708,49.153,PFSZ,Pfahl Shear Zone
+255,2,12.634,49.19,PFSZ,Pfahl Shear Zone
+255,3,12.554,49.227,PFSZ,Pfahl Shear Zone
+256,0,12.967,49.037,PFSZ,Pfahl Shear Zone
+256,1,12.986,49.032,PFSZ,Pfahl Shear Zone
+257,0,12.986,49.032,PFSZ,Pfahl Shear Zone
+257,1,13.017,49.023,PFSZ,Pfahl Shear Zone
+258,0,13.138,48.976,PFSZ,Pfahl Shear Zone
+258,1,13.249,48.933,PFSZ,Pfahl Shear Zone
+259,0,14.105,48.557,PFSZ,Pfahl Shear Zone
+259,1,14.077,48.581,PFSZ,Pfahl Shear Zone
+259,2,14.053,48.599,PFSZ,Pfahl Shear Zone
+259,3,13.983,48.648,PFSZ,Pfahl Shear Zone
+259,4,13.883,48.712,PFSZ,Pfahl Shear Zone
+259,5,13.876,48.716,PFSZ,Pfahl Shear Zone
+259,6,13.869,48.718,PFSZ,Pfahl Shear Zone
+259,7,13.868,48.718,PFSZ,Pfahl Shear Zone
+259,8,13.868,48.719,PFSZ,Pfahl Shear Zone
+260,0,14.105,48.557,PFSZ,Pfahl Shear Zone
+260,1,14.121,48.545,PFSZ,Pfahl Shear Zone
+260,2,14.176,48.505,PFSZ,Pfahl Shear Zone
+261,0,14.176,48.505,PFSZ,Pfahl Shear Zone
+261,1,14.199,48.486,PFSZ,Pfahl Shear Zone
+261,2,14.243,48.451,PFSZ,Pfahl Shear Zone
+262,0,10.308,50.827,PFSZ,Pfahl Shear Zone
+262,1,10.154,50.906,PFSZ,Pfahl Shear Zone
+267,0,14.243,48.451,RBFZ,Rodl-Blanice Fault Zone
+267,1,14.216,48.421,RBFZ,Rodl-Blanice Fault Zone
+268,0,14.216,48.421,RBFZ,Rodl-Blanice Fault Zone
+268,1,14.168,48.378,RBFZ,Rodl-Blanice Fault Zone
+269,0,14.168,48.378,RBFZ,Rodl-Blanice Fault Zone
+269,1,14.144,48.356,RBFZ,Rodl-Blanice Fault Zone
+270,0,14.396,48.59,RBFZ,Rodl-Blanice Fault Zone
+270,1,14.386,48.574,RBFZ,Rodl-Blanice Fault Zone
+270,2,14.378,48.563,RBFZ,Rodl-Blanice Fault Zone
+270,3,14.364,48.551,RBFZ,Rodl-Blanice Fault Zone
+270,4,14.342,48.535,RBFZ,Rodl-Blanice Fault Zone
+270,5,14.29,48.489,RBFZ,Rodl-Blanice Fault Zone
+271,0,14.29,48.489,RBFZ,Rodl-Blanice Fault Zone
+271,1,14.243,48.451,RBFZ,Rodl-Blanice Fault Zone
+272,0,14.488,49.019,RBFZ,Rodl-Blanice Fault Zone
+272,1,14.494,49.054,RBFZ,Rodl-Blanice Fault Zone
+273,0,14.474,48.898,RBFZ,Rodl-Blanice Fault Zone
+273,1,14.481,48.927,RBFZ,Rodl-Blanice Fault Zone
+273,2,14.487,48.987,RBFZ,Rodl-Blanice Fault Zone
+273,3,14.488,49.019,RBFZ,Rodl-Blanice Fault Zone
+274,0,14.901,49.885,RBFZ,Rodl-Blanice Fault Zone
+274,1,14.923,49.957,RBFZ,Rodl-Blanice Fault Zone
+274,2,14.942,50.031,RBFZ,Rodl-Blanice Fault Zone
+275,0,14.881,49.838,RBFZ,Rodl-Blanice Fault Zone
+275,1,14.864,49.786,RBFZ,Rodl-Blanice Fault Zone
+275,2,14.856,49.765,RBFZ,Rodl-Blanice Fault Zone
+275,3,14.826,49.695,RBFZ,Rodl-Blanice Fault Zone
+276,0,14.533,49.15,RBFZ,Rodl-Blanice Fault Zone
+276,1,14.535,49.166,RBFZ,Rodl-Blanice Fault Zone
+276,2,14.539,49.182,RBFZ,Rodl-Blanice Fault Zone
+276,3,14.546,49.197,RBFZ,Rodl-Blanice Fault Zone
+276,4,14.555,49.213,RBFZ,Rodl-Blanice Fault Zone
+277,0,14.901,49.885,RBFZ,Rodl-Blanice Fault Zone
+277,1,14.899,49.872,RBFZ,Rodl-Blanice Fault Zone
+277,2,14.896,49.86,RBFZ,Rodl-Blanice Fault Zone
+277,3,14.89,49.849,RBFZ,Rodl-Blanice Fault Zone
+277,4,14.881,49.838,RBFZ,Rodl-Blanice Fault Zone
+278,0,14.826,49.695,RBFZ,Rodl-Blanice Fault Zone
+278,1,14.805,49.647,RBFZ,Rodl-Blanice Fault Zone
+278,2,14.765,49.565,RBFZ,Rodl-Blanice Fault Zone
+278,3,14.744,49.515,RBFZ,Rodl-Blanice Fault Zone
+278,4,14.722,49.446,RBFZ,Rodl-Blanice Fault Zone
+278,5,14.687,49.333,RBFZ,Rodl-Blanice Fault Zone
+278,6,14.681,49.31,RBFZ,Rodl-Blanice Fault Zone
+278,7,14.676,49.283,RBFZ,Rodl-Blanice Fault Zone
+278,8,14.662,49.243,RBFZ,Rodl-Blanice Fault Zone
+278,9,14.66,49.227,RBFZ,Rodl-Blanice Fault Zone
+279,0,14.942,50.031,RBFZ,Rodl-Blanice Fault Zone
+279,1,14.948,50.046,RBFZ,Rodl-Blanice Fault Zone
+279,2,14.953,50.06,RBFZ,Rodl-Blanice Fault Zone
+279,3,14.957,50.075,RBFZ,Rodl-Blanice Fault Zone
+279,4,14.959,50.09,RBFZ,Rodl-Blanice Fault Zone
+280,0,14.494,49.054,RBFZ,Rodl-Blanice Fault Zone
+280,1,14.511,49.102,RBFZ,Rodl-Blanice Fault Zone
+280,2,14.533,49.15,RBFZ,Rodl-Blanice Fault Zone
+281,0,14.454,48.845,RBFZ,Rodl-Blanice Fault Zone
+281,1,14.474,48.898,RBFZ,Rodl-Blanice Fault Zone
+282,0,14.374,48.632,RBFZ,Rodl-Blanice Fault Zone
+282,1,14.382,48.662,RBFZ,Rodl-Blanice Fault Zone
+282,2,14.399,48.704,RBFZ,Rodl-Blanice Fault Zone
+282,3,14.425,48.769,RBFZ,Rodl-Blanice Fault Zone
+282,4,14.454,48.845,RBFZ,Rodl-Blanice Fault Zone
+283,0,14.436,48.679,RBFZ,Rodl-Blanice Fault Zone
+283,1,14.405,48.603,RBFZ,Rodl-Blanice Fault Zone
+284,0,14.405,48.603,RBFZ,Rodl-Blanice Fault Zone
+284,1,14.396,48.59,RBFZ,Rodl-Blanice Fault Zone
+285,0,14.333,48.582,RBFZ,Rodl-Blanice Fault Zone
+285,1,14.335,48.587,RBFZ,Rodl-Blanice Fault Zone
+285,2,14.351,48.597,RBFZ,Rodl-Blanice Fault Zone
+285,3,14.361,48.607,RBFZ,Rodl-Blanice Fault Zone
+285,4,14.368,48.617,RBFZ,Rodl-Blanice Fault Zone
+285,5,14.373,48.629,RBFZ,Rodl-Blanice Fault Zone
+286,0,14.959,50.107,RBFZ,Rodl-Blanice Fault Zone
+286,1,14.959,50.09,RBFZ,Rodl-Blanice Fault Zone
+287,0,14.563,49.232,RBFZ,Rodl-Blanice Fault Zone
+287,1,14.555,49.213,RBFZ,Rodl-Blanice Fault Zone
+61,0,16.239,50.921,SMF,Sudetic Marginal Fault
+61,1,16.201,50.947,SMF,Sudetic Marginal Fault
+61,2,16.15,50.982,SMF,Sudetic Marginal Fault
+62,0,16.348,50.846,SMF,Sudetic Marginal Fault
+62,1,16.301,50.881,SMF,Sudetic Marginal Fault
+62,2,16.239,50.921,SMF,Sudetic Marginal Fault
+63,0,16.348,50.846,SMF,Sudetic Marginal Fault
+63,1,16.443,50.784,SMF,Sudetic Marginal Fault
+64,0,16.558,50.687,SMF,Sudetic Marginal Fault
+64,1,16.616,50.621,SMF,Sudetic Marginal Fault
+64,2,16.654,50.578,SMF,Sudetic Marginal Fault
+65,0,16.654,50.578,SMF,Sudetic Marginal Fault
+65,1,16.666,50.558,SMF,Sudetic Marginal Fault
+66,0,16.788,50.472,SMF,Sudetic Marginal Fault
+66,1,16.808,50.46,SMF,Sudetic Marginal Fault
+67,0,17.118,50.255,SMF,Sudetic Marginal Fault
+67,1,17.082,50.289,SMF,Sudetic Marginal Fault
+68,0,17.128,50.244,SMF,Sudetic Marginal Fault
+68,1,17.118,50.255,SMF,Sudetic Marginal Fault
+69,0,17.148,50.224,SMF,Sudetic Marginal Fault
+69,1,17.128,50.244,SMF,Sudetic Marginal Fault
+70,0,16.666,50.558,SMF,Sudetic Marginal Fault
+70,1,16.719,50.518,SMF,Sudetic Marginal Fault
+70,2,16.788,50.472,SMF,Sudetic Marginal Fault
+71,0,16.454,50.775,SMF,Sudetic Marginal Fault
+71,1,16.526,50.715,SMF,Sudetic Marginal Fault
+71,2,16.558,50.687,SMF,Sudetic Marginal Fault
+72,0,16.808,50.46,SMF,Sudetic Marginal Fault
+72,1,16.915,50.408,SMF,Sudetic Marginal Fault
+72,2,16.952,50.388,SMF,Sudetic Marginal Fault
+73,0,16.98,50.373,SMF,Sudetic Marginal Fault
+73,1,16.952,50.388,SMF,Sudetic Marginal Fault
+74,0,16.062,51.05,SMF,Sudetic Marginal Fault
+74,1,16.15,50.982,SMF,Sudetic Marginal Fault
+75,0,17.202,50.177,SMF,Sudetic Marginal Fault
+75,1,17.174,50.2,SMF,Sudetic Marginal Fault
+75,2,17.148,50.224,SMF,Sudetic Marginal Fault
+76,0,17.589,49.942,SMF,Sudetic Marginal Fault
+76,1,17.565,49.963,SMF,Sudetic Marginal Fault
+76,2,17.538,49.983,SMF,Sudetic Marginal Fault
+76,3,17.513,50,SMF,Sudetic Marginal Fault
+76,4,17.484,50.018,SMF,Sudetic Marginal Fault
+76,5,17.454,50.035,SMF,Sudetic Marginal Fault
+76,6,17.423,50.05,SMF,Sudetic Marginal Fault
+76,7,17.39,50.065,SMF,Sudetic Marginal Fault
+76,8,17.357,50.079,SMF,Sudetic Marginal Fault
+77,0,17.025,50.348,SMF,Sudetic Marginal Fault
+77,1,16.98,50.373,SMF,Sudetic Marginal Fault
+78,0,17.082,50.289,SMF,Sudetic Marginal Fault
+78,1,17.025,50.348,SMF,Sudetic Marginal Fault
+79,0,17.238,50.152,SMF,Sudetic Marginal Fault
+79,1,17.202,50.177,SMF,Sudetic Marginal Fault
+79,2,17.202,50.177,SMF,Sudetic Marginal Fault
+80,0,17.328,50.094,SMF,Sudetic Marginal Fault
+80,1,17.238,50.152,SMF,Sudetic Marginal Fault
+81,0,17.357,50.079,SMF,Sudetic Marginal Fault
+81,1,17.328,50.094,SMF,Sudetic Marginal Fault
+82,0,17.589,49.942,SMF,Sudetic Marginal Fault
+82,1,17.627,49.915,SMF,Sudetic Marginal Fault
+82,2,17.659,49.891,SMF,Sudetic Marginal Fault
+82,3,17.761,49.809,SMF,Sudetic Marginal Fault
+82,4,17.849,49.755,SMF,Sudetic Marginal Fault
+82,5,17.874,49.739,SMF,Sudetic Marginal Fault
+290,0,15.639,49.782,VPFZ,Vitis-Pribyslav Fault Zone
+290,1,15.651,49.742,VPFZ,Vitis-Pribyslav Fault Zone
+290,2,15.684,49.674,VPFZ,Vitis-Pribyslav Fault Zone
+290,3,15.688,49.644,VPFZ,Vitis-Pribyslav Fault Zone
+290,4,15.687,49.632,VPFZ,Vitis-Pribyslav Fault Zone
+290,5,15.684,49.606,VPFZ,Vitis-Pribyslav Fault Zone
+290,6,15.674,49.568,VPFZ,Vitis-Pribyslav Fault Zone
+290,7,15.663,49.536,VPFZ,Vitis-Pribyslav Fault Zone
+290,8,15.647,49.503,VPFZ,Vitis-Pribyslav Fault Zone
+290,9,15.634,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+291,0,15.446,48.952,VPFZ,Vitis-Pribyslav Fault Zone
+291,1,15.445,48.965,VPFZ,Vitis-Pribyslav Fault Zone
+291,2,15.442,48.991,VPFZ,Vitis-Pribyslav Fault Zone
+291,3,15.44,49.028,VPFZ,Vitis-Pribyslav Fault Zone
+291,4,15.441,49.054,VPFZ,Vitis-Pribyslav Fault Zone
+291,5,15.446,49.081,VPFZ,Vitis-Pribyslav Fault Zone
+291,6,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+291,7,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+291,8,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+291,9,15.483,49.175,VPFZ,Vitis-Pribyslav Fault Zone
+291,10,15.511,49.227,VPFZ,Vitis-Pribyslav Fault Zone
+291,11,15.569,49.357,VPFZ,Vitis-Pribyslav Fault Zone
+291,12,15.609,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+291,13,15.609,49.479,VPFZ,Vitis-Pribyslav Fault Zone
+291,14,15.617,49.502,VPFZ,Vitis-Pribyslav Fault Zone
+291,15,15.628,49.524,VPFZ,Vitis-Pribyslav Fault Zone
+292,0,15.639,49.782,VPFZ,Vitis-Pribyslav Fault Zone
+292,1,15.651,49.742,VPFZ,Vitis-Pribyslav Fault Zone
+292,2,15.684,49.674,VPFZ,Vitis-Pribyslav Fault Zone
+292,3,15.688,49.644,VPFZ,Vitis-Pribyslav Fault Zone
+292,4,15.687,49.632,VPFZ,Vitis-Pribyslav Fault Zone
+292,5,15.684,49.606,VPFZ,Vitis-Pribyslav Fault Zone
+292,6,15.674,49.568,VPFZ,Vitis-Pribyslav Fault Zone
+292,7,15.663,49.536,VPFZ,Vitis-Pribyslav Fault Zone
+292,8,15.647,49.503,VPFZ,Vitis-Pribyslav Fault Zone
+292,9,15.634,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+293,0,15.471,49.246,VPFZ,Vitis-Pribyslav Fault Zone
+293,1,15.444,49.189,VPFZ,Vitis-Pribyslav Fault Zone
+293,2,15.403,49.124,VPFZ,Vitis-Pribyslav Fault Zone
+293,3,15.363,49.048,VPFZ,Vitis-Pribyslav Fault Zone
+293,4,15.331,49.001,VPFZ,Vitis-Pribyslav Fault Zone
+293,5,15.317,48.983,VPFZ,Vitis-Pribyslav Fault Zone
+293,6,15.317,48.983,VPFZ,Vitis-Pribyslav Fault Zone
+294,0,15.446,48.952,VPFZ,Vitis-Pribyslav Fault Zone
+294,1,15.445,48.965,VPFZ,Vitis-Pribyslav Fault Zone
+294,2,15.442,48.991,VPFZ,Vitis-Pribyslav Fault Zone
+294,3,15.44,49.028,VPFZ,Vitis-Pribyslav Fault Zone
+294,4,15.441,49.054,VPFZ,Vitis-Pribyslav Fault Zone
+294,5,15.446,49.081,VPFZ,Vitis-Pribyslav Fault Zone
+294,6,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+294,7,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+294,8,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+294,9,15.483,49.175,VPFZ,Vitis-Pribyslav Fault Zone
+294,10,15.511,49.227,VPFZ,Vitis-Pribyslav Fault Zone
+294,11,15.569,49.357,VPFZ,Vitis-Pribyslav Fault Zone
+294,12,15.609,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+294,13,15.609,49.479,VPFZ,Vitis-Pribyslav Fault Zone
+294,14,15.617,49.502,VPFZ,Vitis-Pribyslav Fault Zone
+294,15,15.628,49.524,VPFZ,Vitis-Pribyslav Fault Zone
+295,0,15.639,49.782,VPFZ,Vitis-Pribyslav Fault Zone
+295,1,15.651,49.742,VPFZ,Vitis-Pribyslav Fault Zone
+295,2,15.684,49.674,VPFZ,Vitis-Pribyslav Fault Zone
+295,3,15.688,49.644,VPFZ,Vitis-Pribyslav Fault Zone
+295,4,15.687,49.632,VPFZ,Vitis-Pribyslav Fault Zone
+295,5,15.684,49.606,VPFZ,Vitis-Pribyslav Fault Zone
+295,6,15.674,49.568,VPFZ,Vitis-Pribyslav Fault Zone
+295,7,15.663,49.536,VPFZ,Vitis-Pribyslav Fault Zone
+295,8,15.647,49.503,VPFZ,Vitis-Pribyslav Fault Zone
+295,9,15.634,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+296,0,15.471,49.246,VPFZ,Vitis-Pribyslav Fault Zone
+296,1,15.444,49.189,VPFZ,Vitis-Pribyslav Fault Zone
+296,2,15.403,49.124,VPFZ,Vitis-Pribyslav Fault Zone
+296,3,15.363,49.048,VPFZ,Vitis-Pribyslav Fault Zone
+296,4,15.331,49.001,VPFZ,Vitis-Pribyslav Fault Zone
+296,5,15.317,48.983,VPFZ,Vitis-Pribyslav Fault Zone
+296,6,15.317,48.983,VPFZ,Vitis-Pribyslav Fault Zone
+297,0,15.446,48.952,VPFZ,Vitis-Pribyslav Fault Zone
+297,1,15.445,48.965,VPFZ,Vitis-Pribyslav Fault Zone
+297,2,15.442,48.991,VPFZ,Vitis-Pribyslav Fault Zone
+297,3,15.44,49.028,VPFZ,Vitis-Pribyslav Fault Zone
+297,4,15.441,49.054,VPFZ,Vitis-Pribyslav Fault Zone
+297,5,15.446,49.081,VPFZ,Vitis-Pribyslav Fault Zone
+297,6,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+297,7,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+297,8,15.459,49.121,VPFZ,Vitis-Pribyslav Fault Zone
+297,9,15.483,49.175,VPFZ,Vitis-Pribyslav Fault Zone
+297,10,15.511,49.227,VPFZ,Vitis-Pribyslav Fault Zone
+297,11,15.569,49.357,VPFZ,Vitis-Pribyslav Fault Zone
+297,12,15.609,49.467,VPFZ,Vitis-Pribyslav Fault Zone
+297,13,15.609,49.479,VPFZ,Vitis-Pribyslav Fault Zone
+297,14,15.617,49.502,VPFZ,Vitis-Pribyslav Fault Zone
+297,15,15.628,49.524,VPFZ,Vitis-Pribyslav Fault Zone
+183,0,12.694,49.643,WBSZ,West Bohemian Shear Zone
+183,1,12.688,49.646,WBSZ,West Bohemian Shear Zone
+183,2,12.684,49.65,WBSZ,West Bohemian Shear Zone
+183,3,12.682,49.653,WBSZ,West Bohemian Shear Zone
+183,4,12.683,49.658,WBSZ,West Bohemian Shear Zone
+183,5,12.685,49.668,WBSZ,West Bohemian Shear Zone
+183,6,12.708,49.724,WBSZ,West Bohemian Shear Zone
+183,7,12.71,49.738,WBSZ,West Bohemian Shear Zone
+183,8,12.708,49.75,WBSZ,West Bohemian Shear Zone
+183,9,12.703,49.758,WBSZ,West Bohemian Shear Zone
+183,10,12.696,49.765,WBSZ,West Bohemian Shear Zone
+183,11,12.689,49.769,WBSZ,West Bohemian Shear Zone
+183,12,12.673,49.776,WBSZ,West Bohemian Shear Zone
+183,13,12.663,49.782,WBSZ,West Bohemian Shear Zone
+183,14,12.64,49.8,WBSZ,West Bohemian Shear Zone
+183,15,12.634,49.807,WBSZ,West Bohemian Shear Zone
+183,16,12.629,49.815,WBSZ,West Bohemian Shear Zone
+183,17,12.626,49.823,WBSZ,West Bohemian Shear Zone
+183,18,12.624,49.832,WBSZ,West Bohemian Shear Zone
+183,19,12.625,49.84,WBSZ,West Bohemian Shear Zone
+183,20,12.628,49.848,WBSZ,West Bohemian Shear Zone
+183,21,12.643,49.867,WBSZ,West Bohemian Shear Zone
+183,22,12.649,49.88,WBSZ,West Bohemian Shear Zone
+183,23,12.649,49.89,WBSZ,West Bohemian Shear Zone
+183,24,12.643,49.903,WBSZ,West Bohemian Shear Zone
+183,25,12.642,49.909,WBSZ,West Bohemian Shear Zone
+183,26,12.642,49.916,WBSZ,West Bohemian Shear Zone
+183,27,12.646,49.925,WBSZ,West Bohemian Shear Zone
+183,28,12.653,49.937,WBSZ,West Bohemian Shear Zone
+183,29,12.661,49.947,WBSZ,West Bohemian Shear Zone
+183,30,12.664,49.949,WBSZ,West Bohemian Shear Zone
+184,0,12.756,49.49,WBSZ,West Bohemian Shear Zone
+184,1,12.78,49.462,WBSZ,West Bohemian Shear Zone
+185,0,12.87,49.346,WBSZ,West Bohemian Shear Zone
+185,1,12.848,49.365,WBSZ,West Bohemian Shear Zone
+185,2,12.78,49.462,WBSZ,West Bohemian Shear Zone
+186,0,12.87,49.346,WBSZ,West Bohemian Shear Zone
+186,1,12.884,49.307,WBSZ,West Bohemian Shear Zone
+187,0,12.694,49.643,WBSZ,West Bohemian Shear Zone
+187,1,12.693,49.627,WBSZ,West Bohemian Shear Zone
+187,2,12.695,49.608,WBSZ,West Bohemian Shear Zone
+187,3,12.698,49.586,WBSZ,West Bohemian Shear Zone
+187,4,12.702,49.57,WBSZ,West Bohemian Shear Zone
+187,5,12.715,49.543,WBSZ,West Bohemian Shear Zone
+187,6,12.727,49.522,WBSZ,West Bohemian Shear Zone
+187,7,12.739,49.507,WBSZ,West Bohemian Shear Zone
+187,8,12.756,49.49,WBSZ,West Bohemian Shear Zone

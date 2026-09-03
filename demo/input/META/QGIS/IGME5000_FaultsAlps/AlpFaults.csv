@@ -1,0 +1,283 @@
+pkuid,vertex_index,xcoord,ycoord,code,name
+112,0,10.471,46.253,IL,Insubric Line
+112,1,10.497,46.257,IL,Insubric Line
+112,2,10.538,46.261,IL,Insubric Line
+112,3,10.611,46.266,IL,Insubric Line
+112,4,10.692,46.28,IL,Insubric Line
+112,5,10.751,46.286,IL,Insubric Line
+112,6,10.833,46.297,IL,Insubric Line
+112,7,10.857,46.302,IL,Insubric Line
+112,8,10.872,46.307,IL,Insubric Line
+113,0,7.907,45.545,IL,Insubric Line
+113,1,7.888,45.527,IL,Insubric Line
+113,2,7.845,45.493,IL,Insubric Line
+113,3,7.75,45.446,IL,Insubric Line
+113,4,7.706,45.431,IL,Insubric Line
+113,5,7.676,45.415,IL,Insubric Line
+113,6,7.586,45.348,IL,Insubric Line
+113,7,7.57,45.319,IL,Insubric Line
+114,0,9.391,46.153,IL,Insubric Line
+114,1,9.382,46.153,IL,Insubric Line
+114,2,9.322,46.154,IL,Insubric Line
+115,0,9.443,46.152,IL,Insubric Line
+115,1,9.391,46.153,IL,Insubric Line
+116,0,9.718,46.154,IL,Insubric Line
+116,1,9.755,46.148,IL,Insubric Line
+116,2,9.776,46.146,IL,Insubric Line
+116,3,9.931,46.154,IL,Insubric Line
+116,4,10.041,46.154,IL,Insubric Line
+116,5,10.091,46.162,IL,Insubric Line
+116,6,10.178,46.182,IL,Insubric Line
+116,7,10.293,46.198,IL,Insubric Line
+116,8,10.343,46.216,IL,Insubric Line
+116,9,10.369,46.224,IL,Insubric Line
+116,10,10.407,46.235,IL,Insubric Line
+116,11,10.471,46.253,IL,Insubric Line
+117,0,8.558,46.094,IL,Insubric Line
+117,1,8.429,46.05,IL,Insubric Line
+118,0,9.718,46.154,IL,Insubric Line
+118,1,9.664,46.153,IL,Insubric Line
+118,2,9.594,46.148,IL,Insubric Line
+118,3,9.511,46.147,IL,Insubric Line
+118,4,9.461,46.151,IL,Insubric Line
+118,5,9.443,46.152,IL,Insubric Line
+119,0,8.232,45.925,IL,Insubric Line
+119,1,8.246,45.936,IL,Insubric Line
+119,2,8.273,45.956,IL,Insubric Line
+119,3,8.295,45.971,IL,Insubric Line
+119,4,8.36,46.011,IL,Insubric Line
+119,5,8.395,46.029,IL,Insubric Line
+119,6,8.429,46.05,IL,Insubric Line
+120,0,8.2,45.894,IL,Insubric Line
+120,1,8.221,45.916,IL,Insubric Line
+120,2,8.232,45.925,IL,Insubric Line
+121,0,8.043,45.668,IL,Insubric Line
+121,1,8.084,45.716,IL,Insubric Line
+121,2,8.138,45.797,IL,Insubric Line
+121,3,8.195,45.888,IL,Insubric Line
+121,4,8.2,45.894,IL,Insubric Line
+122,0,8.043,45.668,IL,Insubric Line
+122,1,8.04,45.664,IL,Insubric Line
+122,2,7.99,45.616,IL,Insubric Line
+123,0,7.99,45.616,IL,Insubric Line
+123,1,7.92,45.556,IL,Insubric Line
+123,2,7.907,45.545,IL,Insubric Line
+126,0,8.866,46.156,IL,Insubric Line
+126,1,8.831,46.156,IL,Insubric Line
+126,2,8.82,46.156,IL,Insubric Line
+127,0,9.055,46.16,IL,Insubric Line
+127,1,9.012,46.158,IL,Insubric Line
+127,2,8.963,46.156,IL,Insubric Line
+127,3,8.912,46.154,IL,Insubric Line
+127,4,8.866,46.156,IL,Insubric Line
+128,0,9.055,46.16,IL,Insubric Line
+128,1,9.132,46.153,IL,Insubric Line
+129,0,8.82,46.156,IL,Insubric Line
+129,1,8.763,46.146,IL,Insubric Line
+129,2,8.737,46.143,IL,Insubric Line
+129,3,8.66,46.126,IL,Insubric Line
+129,4,8.576,46.102,IL,Insubric Line
+129,5,8.558,46.094,IL,Insubric Line
+130,0,9.132,46.153,IL,Insubric Line
+130,1,9.218,46.152,IL,Insubric Line
+130,2,9.283,46.152,IL,Insubric Line
+131,0,9.283,46.152,IL,Insubric Line
+131,1,9.322,46.154,IL,Insubric Line
+201,0,10.872,46.307,GF,Giudicarie Fault
+201,1,10.904,46.337,GF,Giudicarie Fault
+201,2,10.931,46.356,GF,Giudicarie Fault
+201,3,10.997,46.448,GF,Giudicarie Fault
+201,4,11.032,46.522,GF,Giudicarie Fault
+201,5,11.071,46.59,GF,Giudicarie Fault
+201,6,11.131,46.639,GF,Giudicarie Fault
+201,7,11.194,46.679,GF,Giudicarie Fault
+201,8,11.27,46.717,GF,Giudicarie Fault
+201,9,11.289,46.726,GF,Giudicarie Fault
+201,10,11.357,46.747,GF,Giudicarie Fault
+202,0,10.423,45.73,GF,Giudicarie Fault
+202,1,10.511,45.825,GF,Giudicarie Fault
+203,0,10.218,45.661,GF,Giudicarie Fault
+203,1,10.221,45.661,GF,Giudicarie Fault
+203,2,10.259,45.667,GF,Giudicarie Fault
+203,3,10.34,45.689,GF,Giudicarie Fault
+203,4,10.371,45.701,GF,Giudicarie Fault
+203,5,10.419,45.727,GF,Giudicarie Fault
+203,6,10.423,45.73,GF,Giudicarie Fault
+204,0,10.218,45.661,GF,Giudicarie Fault
+204,1,10.195,45.66,GF,Giudicarie Fault
+204,2,10.102,45.651,GF,Giudicarie Fault
+204,3,10.1,45.652,GF,Giudicarie Fault
+205,0,10.872,46.307,GF,Giudicarie Fault
+205,1,10.845,46.274,GF,Giudicarie Fault
+206,0,10.845,46.274,GF,Giudicarie Fault
+206,1,10.832,46.251,GF,Giudicarie Fault
+206,2,10.819,46.173,GF,Giudicarie Fault
+206,3,10.82,46.155,GF,Giudicarie Fault
+207,0,10.82,46.155,GF,Giudicarie Fault
+207,1,10.814,46.148,GF,Giudicarie Fault
+207,2,10.789,46.11,GF,Giudicarie Fault
+207,3,10.72,46.057,GF,Giudicarie Fault
+207,4,10.687,46.021,GF,Giudicarie Fault
+208,0,10.687,46.021,GF,Giudicarie Fault
+208,1,10.663,45.993,GF,Giudicarie Fault
+208,2,10.64,45.952,GF,Giudicarie Fault
+208,3,10.626,45.933,GF,Giudicarie Fault
+208,4,10.61,45.913,GF,Giudicarie Fault
+209,0,10.6,45.901,GF,Giudicarie Fault
+209,1,10.603,45.904,GF,Giudicarie Fault
+209,2,10.61,45.913,GF,Giudicarie Fault
+210,0,10.588,45.89,GF,Giudicarie Fault
+210,1,10.594,45.895,GF,Giudicarie Fault
+210,2,10.6,45.901,GF,Giudicarie Fault
+211,0,10.511,45.825,GF,Giudicarie Fault
+211,1,10.517,45.831,GF,Giudicarie Fault
+211,2,10.553,45.865,GF,Giudicarie Fault
+211,3,10.578,45.883,GF,Giudicarie Fault
+211,4,10.588,45.89,GF,Giudicarie Fault
+342,0,11.359,46.748,PL,Periadriatic Lineament
+342,1,11.361,46.749,PL,Periadriatic Lineament
+342,2,11.437,46.771,PL,Periadriatic Lineament
+342,3,11.509,46.805,PL,Periadriatic Lineament
+342,4,11.525,46.811,PL,Periadriatic Lineament
+342,5,11.57,46.828,PL,Periadriatic Lineament
+342,6,11.656,46.834,PL,Periadriatic Lineament
+342,7,11.722,46.827,PL,Periadriatic Lineament
+342,8,11.837,46.81,PL,Periadriatic Lineament
+342,9,11.891,46.796,PL,Periadriatic Lineament
+342,10,11.963,46.793,PL,Periadriatic Lineament
+342,11,12.059,46.786,PL,Periadriatic Lineament
+342,12,12.248,46.767,PL,Periadriatic Lineament
+342,13,12.309,46.754,PL,Periadriatic Lineament
+342,14,12.361,46.756,PL,Periadriatic Lineament
+342,15,12.454,46.747,PL,Periadriatic Lineament
+342,16,12.541,46.741,PL,Periadriatic Lineament
+342,17,12.702,46.718,PL,Periadriatic Lineament
+342,18,12.785,46.699,PL,Periadriatic Lineament
+342,19,12.848,46.692,PL,Periadriatic Lineament
+342,20,12.93,46.675,PL,Periadriatic Lineament
+342,21,13.003,46.664,PL,Periadriatic Lineament
+342,22,13.238,46.637,PL,Periadriatic Lineament
+342,23,13.321,46.628,PL,Periadriatic Lineament
+342,24,13.352,46.624,PL,Periadriatic Lineament
+342,25,13.432,46.61,PL,Periadriatic Lineament
+345,0,14.747,46.464,PL,Periadriatic Lineament
+345,1,14.71,46.474,PL,Periadriatic Lineament
+345,2,14.608,46.487,PL,Periadriatic Lineament
+345,3,14.525,46.49,PL,Periadriatic Lineament
+345,4,14.484,46.49,PL,Periadriatic Lineament
+345,5,14.408,46.488,PL,Periadriatic Lineament
+345,6,14.347,46.484,PL,Periadriatic Lineament
+345,7,14.258,46.488,PL,Periadriatic Lineament
+345,8,14.185,46.504,PL,Periadriatic Lineament
+345,9,14.108,46.532,PL,Periadriatic Lineament
+345,10,14.021,46.568,PL,Periadriatic Lineament
+345,11,13.915,46.58,PL,Periadriatic Lineament
+345,12,13.861,46.58,PL,Periadriatic Lineament
+345,13,13.733,46.573,PL,Periadriatic Lineament
+345,14,13.703,46.573,PL,Periadriatic Lineament
+345,15,13.62,46.586,PL,Periadriatic Lineament
+345,16,13.523,46.598,PL,Periadriatic Lineament
+345,17,13.431,46.61,PL,Periadriatic Lineament
+347,0,15.073,46.431,PL,Periadriatic Lineament
+347,1,15.028,46.443,PL,Periadriatic Lineament
+347,2,14.99,46.452,PL,Periadriatic Lineament
+347,3,14.94,46.461,PL,Periadriatic Lineament
+347,4,14.847,46.475,PL,Periadriatic Lineament
+347,5,14.828,46.48,PL,Periadriatic Lineament
+348,0,15.125,46.417,PL,Periadriatic Lineament
+348,1,15.151,46.41,PL,Periadriatic Lineament
+348,2,15.172,46.406,PL,Periadriatic Lineament
+348,3,15.26,46.389,PL,Periadriatic Lineament
+348,4,15.288,46.386,PL,Periadriatic Lineament
+348,5,15.346,46.388,PL,Periadriatic Lineament
+349,0,15.073,46.431,PL,Periadriatic Lineament
+349,1,15.125,46.417,PL,Periadriatic Lineament
+350,0,14.828,46.48,PL,Periadriatic Lineament
+350,1,14.825,46.481,PL,Periadriatic Lineament
+350,2,14.794,46.489,PL,Periadriatic Lineament
+350,3,14.773,46.498,PL,Periadriatic Lineament
+447,0,15.073,46.431,KF,Katschberg Fault
+447,1,15.028,46.443,KF,Katschberg Fault
+447,2,14.99,46.452,KF,Katschberg Fault
+447,3,14.94,46.461,KF,Katschberg Fault
+447,4,14.89,46.467,KF,Katschberg Fault
+447,5,14.847,46.475,KF,Katschberg Fault
+447,6,14.828,46.48,KF,Katschberg Fault
+448,0,15.125,46.417,KF,Katschberg Fault
+448,1,15.151,46.41,KF,Katschberg Fault
+448,2,15.172,46.406,KF,Katschberg Fault
+448,3,15.236,46.393,KF,Katschberg Fault
+448,4,15.26,46.389,KF,Katschberg Fault
+448,5,15.288,46.386,KF,Katschberg Fault
+448,6,15.346,46.388,KF,Katschberg Fault
+449,0,15.073,46.431,KF,Katschberg Fault
+449,1,15.125,46.417,KF,Katschberg Fault
+450,0,14.828,46.48,KF,Katschberg Fault
+450,1,14.825,46.481,KF,Katschberg Fault
+450,2,14.794,46.489,KF,Katschberg Fault
+450,3,14.773,46.498,KF,Katschberg Fault
+451,0,13.466,46.812,KF,Katschberg Fault
+451,1,13.595,46.762,KF,Katschberg Fault
+451,2,13.678,46.729,KF,Katschberg Fault
+451,3,13.704,46.718,KF,Katschberg Fault
+452,0,13.704,46.718,KF,Katschberg Fault
+452,1,13.847,46.636,KF,Katschberg Fault
+452,2,13.915,46.58,KF,Katschberg Fault
+453,0,13.388,46.861,KF,Katschberg Fault
+453,1,13.417,46.843,KF,Katschberg Fault
+453,2,13.466,46.812,KF,Katschberg Fault
+454,0,14.679,47.009,PLF,Pols-Lavantal Fault System
+454,1,14.769,46.914,PLF,Pols-Lavantal Fault System
+454,2,14.804,46.868,PLF,Pols-Lavantal Fault System
+454,3,14.813,46.861,PLF,Pols-Lavantal Fault System
+454,4,14.831,46.839,PLF,Pols-Lavantal Fault System
+454,5,14.847,46.827,PLF,Pols-Lavantal Fault System
+455,0,15.21,46.459,PLF,Pols-Lavantal Fault System
+455,1,15.161,46.489,PLF,Pols-Lavantal Fault System
+455,2,15.138,46.503,PLF,Pols-Lavantal Fault System
+455,3,15.053,46.562,PLF,Pols-Lavantal Fault System
+455,4,15.026,46.581,PLF,Pols-Lavantal Fault System
+456,0,14.846,46.828,PLF,Pols-Lavantal Fault System
+456,1,14.884,46.793,PLF,Pols-Lavantal Fault System
+456,2,14.89,46.779,PLF,Pols-Lavantal Fault System
+456,3,14.933,46.699,PLF,Pols-Lavantal Fault System
+456,4,14.983,46.622,PLF,Pols-Lavantal Fault System
+456,5,15.026,46.581,PLF,Pols-Lavantal Fault System
+457,0,15.627,46.283,PLF,Pols-Lavantal Fault System
+457,1,15.617,46.285,PLF,Pols-Lavantal Fault System
+457,2,15.555,46.297,PLF,Pols-Lavantal Fault System
+457,3,15.407,46.359,PLF,Pols-Lavantal Fault System
+457,4,15.301,46.407,PLF,Pols-Lavantal Fault System
+457,5,15.248,46.436,PLF,Pols-Lavantal Fault System
+457,6,15.247,46.436,PLF,Pols-Lavantal Fault System
+457,7,15.21,46.459,PLF,Pols-Lavantal Fault System
+458,0,14.659,47.11,PLF,Pols-Lavantal Fault System
+458,1,14.664,47.106,PLF,Pols-Lavantal Fault System
+458,2,14.702,47.079,PLF,Pols-Lavantal Fault System
+458,3,14.756,47.034,PLF,Pols-Lavantal Fault System
+458,4,14.788,46.987,PLF,Pols-Lavantal Fault System
+458,5,14.8,46.975,PLF,Pols-Lavantal Fault System
+458,6,14.835,46.925,PLF,Pols-Lavantal Fault System
+460,0,14.432,47.458,PLF,Pols-Lavantal Fault System
+460,1,14.434,47.451,PLF,Pols-Lavantal Fault System
+460,2,14.454,47.378,PLF,Pols-Lavantal Fault System
+460,3,14.455,47.309,PLF,Pols-Lavantal Fault System
+460,4,14.476,47.246,PLF,Pols-Lavantal Fault System
+460,5,14.622,47.135,PLF,Pols-Lavantal Fault System
+460,6,14.657,47.109,PLF,Pols-Lavantal Fault System
+462,0,11.438,46.881,BF,Brenner Fault
+462,1,11.438,46.881,BF,Brenner Fault
+462,2,11.475,46.933,BF,Brenner Fault
+462,3,11.53,47.001,BF,Brenner Fault
+462,4,11.536,47.013,BF,Brenner Fault
+462,5,11.538,47.088,BF,Brenner Fault
+462,6,11.529,47.106,BF,Brenner Fault
+462,7,11.51,47.164,BF,Brenner Fault
+462,8,11.449,47.239,BF,Brenner Fault
+462,9,11.436,47.25,BF,Brenner Fault
+462,10,11.411,47.268,BF,Brenner Fault
+463,0,11.509,46.805,BF,Brenner Fault
+463,1,11.489,46.825,BF,Brenner Fault
+463,2,11.459,46.851,BF,Brenner Fault
+463,3,11.445,46.868,BF,Brenner Fault
+463,4,11.438,46.881,BF,Brenner Fault

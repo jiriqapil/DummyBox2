@@ -1,0 +1,10 @@
+# Explicit list of third-party Python packages to install during the docker build phase
+numpy
+scipy
+matplotlib
+pyproj
+netCDF4
+basemap
+obspy
+Pillow
+python-dotenv
