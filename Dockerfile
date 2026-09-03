@@ -14,10 +14,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libhdf5-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy python dependencies
+# Copy python dependencies and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Bundle the python core packages inside the container image
-COPY dummy2/ /app/dummy2/
-COPY helpers/ /app/helpers/
+# Copy ALL repository files into the image (launchers, demo, helpers, dummy2, run.py, etc.)
+COPY . /app
+
+# Set default execution command
+CMD ["python3", "run.py"]
