@@ -5,6 +5,7 @@ matplotlib
 pyproj
 netCDF4
 basemap
+basemap-data-hires
 obspy
 Pillow
 python-dotenv
