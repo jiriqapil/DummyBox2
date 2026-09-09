@@ -59,7 +59,7 @@ def setup_params(env_path=None):
 
         "MAP_STYLE": "Default",
         "USE_QGIS": "false",
-        "IMAGE_QUALITY": "Preview",
+        "IMAGE_QUALITY": "Publish",
         "SHOW_FIGURE": "false",
 
         "MULTIFILTER_TYPE": "butterworth",

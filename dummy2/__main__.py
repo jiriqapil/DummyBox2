@@ -25,11 +25,13 @@ from defs4plot import *
 from defs4write import *
 
 # Display environment & package versions
-show_env()
+## print redirected to file
+#show_env()  
 
 # Display parameter configuration
 P = setup_params() # Loads Python defaults & overrides via params/config.env
-show_params(P)
+## print redirected to file
+#show_params(P)
 # Alias configuration dictionary
 cfg = P
 
@@ -582,7 +584,7 @@ with open(cfg["task_list"], 'r') as f:
          tag="0C"   
      #tag=str(dispersions['crossvalidation_tag'][0].upper())
       
-     output_png = f"{cfg['output_dir']}/PNG/{outpair}_Butter3C3C_{tag}_{image_quality[:4]}.png"      
+     output_png = f"{cfg['output_dir']}/PNG/{outpair}_{image_quality[:4]}.png"      
      imgout.save(output_png, optimize=True)
 
 # Clean up buffer & image RAM
@@ -608,9 +610,9 @@ dispersions_1C = tag_dicts["1C"]
 dispersions_0C = tag_dicts["0C"]
 
 # Save aggregated dictionaries
-np.save(f"{cfg['output_dir']}/NPY/dispersions_Butter3C3C_3C.npy", dispersions_3C)
-np.save(f"{cfg['output_dir']}/NPY/dispersions_Butter3C3C_1C.npy", dispersions_1C)
-np.save(f"{cfg['output_dir']}/NPY/dispersions_Butter3C3C_0C.npy", dispersions_0C)
+np.save(f"{cfg['output_dir']}/NPY/dispersions_3C.npy", dispersions_3C)
+np.save(f"{cfg['output_dir']}/NPY/dispersions_1C.npy", dispersions_1C)
+np.save(f"{cfg['output_dir']}/NPY/dispersions_0C.npy", dispersions_0C)
 
 # Write CSV files for each dataset folder
 write_dataset_csvs(dispersions_3C, f"{cfg['output_dir']}/CSV/Dataset_3C")
