@@ -28,13 +28,13 @@ TABLE OF CONTENTS
 
 1.1 Local PC (Docker)
 ---------------------
-docker run --rm -v "$(pwd)/demo/output":/app/demo/output ghcr.io/jiriqapil/dummybox2:v2.0.0
+docker run --rm -v "$(pwd)/demo/output":/app/demo/output ghcr.io/jiriqapil/dummybox2:v2.1.0
 
 
 1.2 Local PC (Apptainer)
 ------------------------
 mkdir -p demo/output 
-apptainer exec --pwd /app --writable-tmpfs -B "$(pwd)/demo/output":/app/demo/output docker://ghcr.io/jiriqapil/dummybox2:v2.0.0 python3 /app/run.py
+apptainer exec --pwd /app --writable-tmpfs -B "$(pwd)/demo/output":/app/demo/output docker://ghcr.io/jiriqapil/dummybox2:v2.1.0 python3 /app/run.py
 
 #install aptainer (ubuntu)
 sudo add-apt-repository -y ppa:apptainer/ppa
@@ -45,7 +45,7 @@ sudo apt install -y apptainer
 1.3 HPC Cluster / OpenPBS (Singularity Pure Container)
 ------------------------------------------------------
 # 1. Initialize workspace and extract container image payload
-singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.0.0
+singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.1.0
 singularity exec dummybox2.sif cp -r /app/. .
 
 # 2. Set working environment variables
@@ -77,35 +77,63 @@ bash batch_execution/spool_queue.sh
 ---------------------
 # 1. Prepare workspace and download template codebase
 rm -rf DummyBox2_Test && mkdir -p DummyBox2_Test && cd DummyBox2_Test
-docker run --rm -v "$(pwd)":/app/out ghcr.io/jiriqapil/dummybox2:v2.0.0 cp -r /app/. /app/out/
+docker run --rm -v "$(pwd)":/app/out ghcr.io/jiriqapil/dummybox2:v2.1.0 cp -r /app/. /app/out/
 
 # 2. Edit config.env in working directory (Set custom paths, inputs, and parameters)
 export HOST_PWD=$(pwd)
 sed -i "s|\./|${HOST_PWD}/|g" config.env
-sed -i 's/SUBMIT_MODE=.*/SUBMIT_MODE=pcmono/g' config.env
-sed -i 's|INPUT_DIR=.*|INPUT_DIR=/path/to/your/custom_input|g' config.env
-sed -i 's|OUTPUT_DIR=.*|OUTPUT_DIR=/path/to/your/custom_output|g' config.env
 
 # 3. Execute processing with custom config mounted
-docker run --rm -v "$(pwd)":/app ghcr.io/jiriqapil/dummybox2:v2.0.0 python3 /app/run.py
-
+docker run --rm \
+  --user "$(id -u):$(id -g)" \
+  -v "$(pwd)":/app \
+  -v /mnt:/mnt \
+  ghcr.io/jiriqapil/dummybox2:v2.1.0 \
+  python3 /app/run.py
 
 2.2 Local PC (Apptainer)
 ------------------------
 # 1. Prepare workspace and pull container
 rm -rf DummyBox2_Test && mkdir -p DummyBox2_Test && cd DummyBox2_Test
-apptainer pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.0.0
+apptainer pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.1.0
 apptainer exec dummybox2.sif cp -r /app/. .
 
 # 2. Edit config.env in working directory (Set custom paths, inputs, and parameters)
 export HOST_PWD=$(pwd)
 sed -i "s|\./|${HOST_PWD}/|g" config.env
-sed -i 's/SUBMIT_MODE=.*/SUBMIT_MODE=pcmono/g' config.env
-sed -i 's|INPUT_DIR=.*|INPUT_DIR=/path/to/your/custom_input|g' config.env
-sed -i 's|OUTPUT_DIR=.*|OUTPUT_DIR=/path/to/your/custom_output|g' config.env
 
 # 3. Execute processing with custom config mounted
 apptainer exec --pwd /app --writable-tmpfs -B "$(pwd)":/app dummybox2.sif python3 /app/run.py
+
+###==========
+# ------------------------------------------------------------------------------
+# Alternative Workflow: to test INPUT_DIR=/mnt/data/my_real_dataset/input
+# ------------------------------------------------------------------------------
+# 1: Initialize workspace and extract config, task list, & demo input payload
+wget https://raw.githubusercontent.com/jiriqapil/DummyBox2/main/config.env -O config.env
+wget https://raw.githubusercontent.com/jiriqapil/DummyBox2/main/demo/input/task_list_demo.csv -O task_list_demo.csv
+apptainer exec docker://ghcr.io/jiriqapil/dummybox2:v2.1.0 cp -r /app/demo/input ./demo/ 2>/dev/null || true
+
+# 2: Edit Configuration (config.env) & Task List
+# Example config.env setup:
+#   INPUT_DIR=./demo/input
+#   OUTPUT_DIR=/mnt/data/junk_apptainer/demo/outpu
+#   TASK_LIST=/mnt/data/junk_apptainer/task_list_demo.csv
+nano config.env
+nano task_list_demo.csv
+
+# 3: Convert OUTPUT_DIR and TASK_LIST relative paths (if any) to absolute host paths
+export HOST_PWD=$(pwd)
+sed -i "s|OUTPUT_DIR=\./|OUTPUT_DIR=${HOST_PWD}/|g" config.env
+sed -i "s|TASK_LIST=\./|TASK_LIST=${HOST_PWD}/|g" config.env
+
+# 4: Execute via Apptainer
+apptainer exec --pwd /work --writable-tmpfs \
+  -B "$(pwd)/config.env":/app/config.env \
+  -B "$(pwd)":/work \
+  -B /mnt:/mnt \
+  docker://ghcr.io/jiriqapil/dummybox2:v2.1.0 \
+  bash -c "python3 /app/run.py; cp -rn /app/batch_execution /work/ 2>/dev/null || true; cp -rn /app/run_*.log /work/ 2>/dev/null || true"
 
 
 ================================================================================
@@ -116,7 +144,7 @@ apptainer exec --pwd /app --writable-tmpfs -B "$(pwd)":/app dummybox2.sif python
 ---------------------------------------------------
 # 1. Initialize workspace and fetch full codebase + SIF container
 rm -rf DummyBox2_Prod && mkdir -p DummyBox2_Prod && cd DummyBox2_Prod
-singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.0.0
+singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.1.0
 singularity exec dummybox2.sif cp -r /app/. .
 
 # 2. Set working environment variables
