@@ -12,7 +12,7 @@ def group_multifilter_apply(
     vmin=1.0,
     vmax=8.0,
     cc="ZZ",
-    multifilter_type="butterworth",
+    multifilter_type="acoustic_butterworth",
     alpha=50.0,
     pad_factor=50,
     params=None,
@@ -41,7 +41,7 @@ def group_multifilter_apply(
     bpf = tr.copy()
 
     # Filter selection
-    if multifilter_type.lower() == "gaussian":
+    if multifilter_type.lower() == "ftan_gaussian":
         f0 = flt4ftan["f_ctr"][f4f]
         bpf = gaussian_bandpass_zeropad(bpf, f0=f0, alpha=alpha, pad_factor=pad_factor)
     else:

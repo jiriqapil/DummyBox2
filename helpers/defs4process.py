@@ -62,7 +62,7 @@ def setup_params(env_path=None):
         "IMAGE_QUALITY": "Publish",
         "SHOW_FIGURE": "false",
 
-        "MULTIFILTER_TYPE": "butterworth",
+        "MULTIFILTER_TYPE": "acoustic_butterworth",
         "ANCHOR_HARMONISATION": "true",
         "DISPERSION_HARMONISATION": "true",
 
