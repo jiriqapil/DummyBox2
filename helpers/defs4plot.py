@@ -1,4 +1,4 @@
-#  ==== defs4plot.py =====
+/#  ==== defs4plot.py =====
 from imports import *
 from defs4group import *
 
@@ -1192,7 +1192,6 @@ def plot_pillow_wrapup(fig, image_quality="Preview"):
     dpi = 300 if image_quality.upper() == "PUBLISH" else 96
     
     # 2. Render matplotlib figure to byte buffer
-    fig.tight_layout()
     fig.patch.set_facecolor("white")
     
     buff = io.BytesIO()

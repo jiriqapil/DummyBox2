@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[ ]:
-
+module="DummyBox2"
 
 import sys, pathlib
 
@@ -570,8 +570,13 @@ with open(cfg["task_list"], 'r') as f:
      plot_crossvalidation_main(ax1=ax1, dispersions=dispersions)
       
 # Embed straight into master layout panel (axes_dict['r1c2'])
-     plot_crossvalidation_embed(fig1=fig1, ax_r1c2=axes['r1c2'])     
-      
+     plot_crossvalidation_embed(fig1=fig1, ax_r1c2=axes['r1c2']) 
+
+
+     title_str = f"{module}: mft_type={cfg["multifilter_type"]},\
+ harmonisation={cfg["anchor_harmonisation"]},\
+ cross-validation={cfg["dispersion_harmonisation"]}"
+     figf.suptitle(title_str, fontsize=14, fontweight="bold", y=1.02)      
 # Wrap up and render to PIL
      imgout, imgf, buff = plot_pillow_wrapup(figf, image_quality=image_quality)
 
@@ -617,10 +622,4 @@ np.save(f"{cfg['output_dir']}/NPY/dispersions_0C.npy", dispersions_0C)
 # Write CSV files for each dataset folder
 write_dataset_csvs(dispersions_3C, f"{cfg['output_dir']}/CSV/Dataset_3C")
 write_dataset_csvs(dispersions_1C, f"{cfg['output_dir']}/CSV/Dataset_1C")
-
-
-# In[ ]:
-
-
-
 
