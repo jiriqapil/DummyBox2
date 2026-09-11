@@ -573,8 +573,8 @@ with open(cfg["task_list"], 'r') as f:
 # Embed straight into master layout panel (axes_dict['r1c2'])
      plot_crossvalidation_embed(fig1=fig1, ax_r1c2=axes['r1c2']) 
      
-     title_str = f"{module}: mft_type={cfg['multifilter_type']}, harmonisation={cfg['anchor_harmonisation']}, cross-validation={cfg['crossvalidation']}"
-     figf.suptitle(title_str, fontsize=14, fontweight="bold", y=1.02)      
+     title_str = f"{module}: multifilter_type={cfg['multifilter_type']}, harmonisation={cfg['anchor_harmonisation']}, cross-validation={cfg['crossvalidation']}"
+     figf.suptitle(title_str, fontsize=14, fontweight="bold",y=0.88)      
 # Wrap up and render to PIL
      imgout, imgf, buff = plot_pillow_wrapup(figf, image_quality=image_quality)
 

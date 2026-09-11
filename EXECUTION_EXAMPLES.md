@@ -1,18 +1,18 @@
 ================================================================================
 DUMMYBOX2 - EXECUTION GUIDE
 ================================================================================
-
 This document provides ready-to-use commands for running DummyBox2 across
-different execution environments: local workstations (Docker/Apptainer) and
-HPC cluster environments (Singularity/Mamba with OpenPBS).
+different execution environments: cloud virtual machines (GitHub Codespaces), local 
+workstations (Docker/Apptainer), and HPC cluster environments (Singularity/Mamba with OpenPBS).
 
 --------------------------------------------------------------------------------
 TABLE OF CONTENTS
 --------------------------------------------------------------------------------
 1. DEMO RUNS (Fast Verification - Single Command Default Run)
-   1.1 Local PC (Docker)
-   1.2 Local PC (Apptainer)
-   1.3 HPC Cluster / OpenPBS (Singularity Pure Container)
+   1.1 Cloud Virtual Machine (GitHub Codespaces - Browser / Zero Setup)
+   1.2 Local PC (Docker)
+   1.3 Local PC (Apptainer)
+   1.4 HPC Cluster / OpenPBS (Singularity Pure Container)
 
 2. SMALL PROJECT / TESTING (Custom Dataset & Config)
    2.1 Local PC (Docker)
@@ -26,12 +26,20 @@ TABLE OF CONTENTS
 1. DEMO RUNS (Fast Verification - Single Command Default Run)
 ================================================================================
 
-1.1 Local PC (Docker)
+1.1 Cloud Virtual Machine (GitHub Codespaces - Browser / Zero Setup)
+------------------------------------------------------------------
+#Prerequisite: Signed in to GitHub (no local Docker or installation required).
+# 1. Click to launch: https://github.com/codespaces/new?repo=jiriqapil/DummyBox2
+# 2. Once the browser terminal opens, run:
+docker run --rm -v "$(pwd)/demo/output":/app/demo/output ghcr.io/jiriqapil/dummybox2:v2.1.0
+
+
+1.2 Local PC (Docker)
 ---------------------
 docker run --rm -v "$(pwd)/demo/output":/app/demo/output ghcr.io/jiriqapil/dummybox2:v2.1.0
 
 
-1.2 Local PC (Apptainer)
+1.3 Local PC (Apptainer)
 ------------------------
 mkdir -p demo/output 
 apptainer exec --pwd /app --writable-tmpfs -B "$(pwd)/demo/output":/app/demo/output docker://ghcr.io/jiriqapil/dummybox2:v2.1.0 python3 /app/run.py
@@ -42,7 +50,7 @@ sudo apt update
 sudo apt install -y apptainer
 
 
-1.3 HPC Cluster / OpenPBS (Singularity Pure Container)
+1.4 HPC Cluster / OpenPBS (Singularity Pure Container)
 ------------------------------------------------------
 # 1. Initialize workspace and extract container image payload
 singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.1.0
