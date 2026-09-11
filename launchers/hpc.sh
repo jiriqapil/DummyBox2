@@ -86,10 +86,13 @@ export MSEED_PATH="/app/demo/input/MSEED"
 export ETOPO_NC="/app/demo/input/META/ETOPO/ETOPO1_Ice_g_gmt4_cropEU.nc"
 export QGIS_DIR="/app/demo/input/META/QGIS"
 
-# Execute python module inside Singularity container overlaying SCRATCHDIR onto /app
+# Execute python module inside Singularity container, extracting tagged task execution results
 singularity exec --pwd /app --writable-tmpfs \\
   -B "\$SCRATCHDIR":/app \\
-  "${SIF_IMAGE}" python3 -B -m dummy2 2>&1 | tee "\$LOG_DIR/execution_${TIMESTAMP}.log"
+  "${SIF_IMAGE}" python3 -B -m dummy2 2>&1 \\
+  | grep "^\[TASK_RESULT\]" \\
+  | sed 's/\[TASK_RESULT\] //' \\
+  > "\$LOG_DIR/task_execution_${TIMESTAMP}.log"
 EOF
 )
             else
@@ -107,8 +110,11 @@ export MSEED_PATH="\$SCRATCHDIR/demo/input/MSEED"
 export ETOPO_NC="\$SCRATCHDIR/demo/input/META/ETOPO/ETOPO1_Ice_g_gmt4_cropEU.nc"
 export QGIS_DIR="\$SCRATCHDIR/demo/input/META/QGIS"
 
-# Execute python module natively
-python3 -B -m dummy2 2>&1 | tee "\$LOG_DIR/execution_${TIMESTAMP}.log"
+# Execute python module natively, extracting tagged task execution results
+python3 -B -m dummy2 2>&1 \\
+  | grep "^\[TASK_RESULT\]" \\
+  | sed 's/\[TASK_RESULT\] //' \\
+  > "\$LOG_DIR/task_execution_${TIMESTAMP}.log"
 EOF
 )
             fi
@@ -201,8 +207,8 @@ cp "${ABS_BATCH_DIR}/hpc_execution.log" "\${BATCH_DEST}/" 2>/dev/null || true
 END_TIME=\$(date +%s)
 RUNTIME=\$(( END_TIME - START_TIME ))
 
-# 6. Log completion to master log file
-echo "${BATCH_NAME},\${RUNTIME}" >> "${MASTER_LOG}"
+# 6. Reporting execution runtime summary
+echo "${BATCH_NAME} finished in \${RUNTIME}s"
 EOT
 
             chmod +x "${JOB_SCRIPT}"
@@ -219,14 +225,13 @@ EOT
 fi
 
 if [ "$INSIDE_CONTAINER" = true ] && [ -f "${SPOOL_FILE}" ]; then
-    chmod +x "${SPOOL_FILE}"
-    echo "------------------------------------------------------------------"
+    echo "----------------------------------------"
     echo "CONTAINER ENVIRONMENT DETECTED:"
     echo "Batch job scripts prepared and spooled to batch_execution/spool_queue.sh."
     echo ""
     echo "To dispatch all jobs to the cluster scheduler, run on host login node:"
     echo "bash batch_execution/spool_queue.sh"
-    echo "------------------------------------------------------------------"
+    echo "----------------------------------------"
 fi
 
 echo "=== HPC batch preparation completed ==="

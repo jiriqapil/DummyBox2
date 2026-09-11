@@ -129,6 +129,7 @@ with open(cfg["task_list"], 'r') as f:
 
   # Execute only active tasks in the chunk (accepts 'yes' or 'y')
   if status.lower() in ("yes", "y"):
+   try:
      net1 = inpair.split(sep="_")[0].split(sep=".")[0]
      sta1 = inpair.split(sep="_")[0].split(sep=".")[1]
      net2 = inpair.split(sep="_")[1].split(sep=".")[0]
@@ -557,7 +558,7 @@ with open(cfg["task_list"], 'r') as f:
         )         
 
      # Process dispersion harmonisation and crossvalidation based on cfg parameters
-     if cfg.get("dispersion_harmonisation", True):
+     if cfg.get("crossvalidation", True):
         dispersions = harmo_picks_solve3c(dispersions, params=cfg)
     
      dispersions = dispersions_crossvalidation(dispersions)         
@@ -571,11 +572,8 @@ with open(cfg["task_list"], 'r') as f:
       
 # Embed straight into master layout panel (axes_dict['r1c2'])
      plot_crossvalidation_embed(fig1=fig1, ax_r1c2=axes['r1c2']) 
-
-
-     title_str = f"{module}: mft_type={cfg["multifilter_type"]},\
- harmonisation={cfg["anchor_harmonisation"]},\
- cross-validation={cfg["dispersion_harmonisation"]}"
+     
+     title_str = f"{module}: mft_type={cfg['multifilter_type']}, harmonisation={cfg['anchor_harmonisation']}, cross-validation={cfg['crossvalidation']}"
      figf.suptitle(title_str, fontsize=14, fontweight="bold", y=1.02)      
 # Wrap up and render to PIL
      imgout, imgf, buff = plot_pillow_wrapup(figf, image_quality=image_quality)
@@ -607,8 +605,11 @@ with open(cfg["task_list"], 'r') as f:
 # --- CLEAR MEMORY HERE ---
      gc.collect() # Force immediate garbage collection
 
-     print(str(r)+','+outpair+',DONE',str(dispersions['crossvalidation_tag']).upper())
+     print('[TASK_RESULT] ' + str(task_id)+','+outpair+',Dataset_'+str(tag))
 
+   except Exception:
+     print('[TASK_RESULT] ' + str(task_id)+','+outpair+',Error')
+     continue
 # Unpack aggregated dictionaries after the loop completes
 dispersions_3C = tag_dicts["3C"]
 dispersions_1C = tag_dicts["1C"]
@@ -622,4 +623,3 @@ np.save(f"{cfg['output_dir']}/NPY/dispersions_0C.npy", dispersions_0C)
 # Write CSV files for each dataset folder
 write_dataset_csvs(dispersions_3C, f"{cfg['output_dir']}/CSV/Dataset_3C")
 write_dataset_csvs(dispersions_1C, f"{cfg['output_dir']}/CSV/Dataset_1C")
-

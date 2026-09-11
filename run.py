@@ -74,10 +74,10 @@ def calculate_tasks_per_batch(cfg, total_active):
     
     if mode == "pcpara":
         raw_cpus = str(cfg.get("cpus_pc", "1")).strip().upper()
-        if raw_cpus == "ALL":
+        if raw_cpus == "MAX":
             detected_cpus = os.cpu_count() or 4
             num_cpus = max(1, detected_cpus - 1)
-            print(f"[Orchestrator] 'ALL' selected: Using {num_cpus} workers (1 core reserved for system safety).")
+            print(f"[Orchestrator] 'MAX' selected: Using {num_cpus} workers (1 core reserved for system safety).")
         else:
             try:
                 num_cpus = int(raw_cpus)

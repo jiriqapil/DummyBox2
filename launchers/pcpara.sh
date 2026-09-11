@@ -34,7 +34,7 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
     for batch_dir in "${ROOT_DIR}/batch_execution"/batch_*; do
         if [ -d "$batch_dir" ]; then
             BATCH_NAME=$(basename "$batch_dir")
-            echo "Spawning background worker process for ${BATCH_NAME}..."
+            echo "Launching process worker for ${BATCH_NAME}..."
 
             (
                 START_TIME=$SECONDS
@@ -43,7 +43,14 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
                 mkdir -p "${LOG_DIR}"
 
                 cd "$batch_dir"
-                python3 -B -m dummy2 2>&1 | tee "${LOG_DIR}/execution_${TIMESTAMP}.log"
+
+                # Capture ONLY lines starting with [TASK_RESULT] into the task execution log
+                # 'sed' strips out the tag so your final log file contains just the clean table content
+                python3 -B -m dummy2 2>&1 \
+                    | grep "^\[TASK_RESULT\]" \
+                    | sed 's/\[TASK_RESULT\] //' \
+                    > "${LOG_DIR}/task_execution_${TIMESTAMP}.log"
+
                 cd "${ROOT_DIR}"
 
                 BATCH_DEST="${BASE_OUTPUT_REAL}/${BATCH_NAME}"
@@ -53,8 +60,9 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
                 rm -rf "${TMP_OUT}"
 
                 DURATION=$((SECONDS - START_TIME))
-                echo "[Complete] ${BATCH_NAME} finished in ${DURATION}s -> Saved to: ${BATCH_DEST}"
-            ) &
+
+                echo "${BATCH_NAME} finished in ${DURATION}s"
+            ) & 
 
             PIDS+=($!)
         fi
@@ -62,7 +70,7 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
 fi
 
 echo "----------------------------------------"
-echo "All worker tasks spawned in parallel. Monitoring execution..."
+echo "All workers initialized. Waiting for task completion..."
 
 for pid in "${PIDS[@]}"; do
     wait "$pid"

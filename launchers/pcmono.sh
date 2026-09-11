@@ -40,7 +40,13 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
             mkdir -p "${LOG_DIR}"
 
             cd "$batch_dir"
-            python3 -B -m dummy2 2>&1 | tee "${LOG_DIR}/execution_${TIMESTAMP}.log"
+            
+            # Capture tagged task lines into clean CSV batch log
+            python3 -B -m dummy2 2>&1 \
+                | grep "^\[TASK_RESULT\]" \
+                | sed 's/\[TASK_RESULT\] //' \
+                > "${LOG_DIR}/task_execution_${TIMESTAMP}.log"
+                
             cd "${ROOT_DIR}"
 
             BATCH_DEST="${BASE_OUTPUT_REAL}/${BATCH_NAME}"
@@ -50,7 +56,7 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
             rm -rf "${TMP_OUT}"
 
             DURATION=$((SECONDS - START_TIME))
-            echo "Completed ${BATCH_NAME} in ${DURATION}s -> Saved to: ${BATCH_DEST}"
+            echo "${BATCH_NAME} finished in ${DURATION}s"
             echo "----------------------------------------"
         fi
     done

@@ -1,4 +1,4 @@
-/#  ==== defs4plot.py =====
+#  ==== defs4plot.py =====
 from imports import *
 from defs4group import *
 

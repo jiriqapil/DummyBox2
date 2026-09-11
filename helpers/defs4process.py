@@ -64,7 +64,7 @@ def setup_params(env_path=None):
 
         "MULTIFILTER_TYPE": "acoustic_butterworth",
         "ANCHOR_HARMONISATION": "true",
-        "DISPERSION_HARMONISATION": "true",
+        "CROSSVALIDATION": "true",
 
         "MAXLAG": 720,
         "SNRCUT": 1.0,
@@ -111,7 +111,7 @@ def setup_params(env_path=None):
     cfg["show_figure"] = os.getenv("SHOW_FIGURE", defaults["SHOW_FIGURE"]).lower() == "true"
     cfg["multifilter_type"] = os.getenv("MULTIFILTER_TYPE", defaults["MULTIFILTER_TYPE"]).lower()
     cfg["anchor_harmonisation"] = os.getenv("ANCHOR_HARMONISATION", defaults["ANCHOR_HARMONISATION"]).lower() == "true"
-    cfg["dispersion_harmonisation"] = os.getenv("DISPERSION_HARMONISATION", defaults["DISPERSION_HARMONISATION"]).lower() == "true"
+    cfg["crossvalidation"] = os.getenv("CROSSVALIDATION", defaults["CROSSVALIDATION"]).lower() == "true"
     cfg["maxlag"] = int(os.getenv("MAXLAG", defaults["MAXLAG"]))
     cfg["snrcut"] = float(os.getenv("SNRCUT", defaults["SNRCUT"]))
     cfg["harmo_coeft"] = float(os.getenv("HARMO_COEFT", defaults["HARMO_COEFT"]))
