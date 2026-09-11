@@ -31,7 +31,18 @@ TABLE OF CONTENTS
 #Prerequisite: Signed in to GitHub (no local Docker or installation required).
 # 1. Click to launch: https://github.com/codespaces/new?repo=jiriqapil/DummyBox2
 # 2. Once the browser terminal opens, run:
-docker run --rm -v "$(pwd)/demo/output":/app/demo/output ghcr.io/jiriqapil/dummybox2:v2.1.0
+docker build -t dummybox2:test .
+mkdir -p ./demo_results
+docker run --rm -it -v "$(pwd)/demo_results":/app/demo/output dummybox2:test
+
+# mount edited config.env, task_list, ..
+mkdir -p ./demo_results_upd
+docker run --rm -it \
+  -v "$(pwd)/demo_results_upd":/app/demo/output \
+  -v "$(pwd)/config.env":/app/config.env \
+  -v "$(pwd)/demo/input/task_list_demo.csv":/app/demo/input/task_list_demo.csv \
+  -v "$(pwd)/JUNK":/app/demo/input/META/ETOPO \
+  ghcr.io/jiriqapil/dummybox2:v2.1.0
 
 
 1.2 Local PC (Docker)
