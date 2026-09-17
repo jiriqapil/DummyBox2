@@ -32,7 +32,6 @@ TABLE OF CONTENTS
 # 1. Click to launch: https://github.com/codespaces/new?repo=jiriqapil/DummyBox2
 # 2. Once the browser terminal opens, run:
 docker build -t dummybox2:test .
-mkdir -p ./demo_results
 docker run --rm -it -v "$(pwd)/demo_results":/app/demo/output dummybox2:test
 
 # mount edited config.env, task_list, ..
@@ -164,7 +163,8 @@ apptainer exec --pwd /work --writable-tmpfs \
 # 1. Initialize workspace and fetch full codebase + SIF container
 rm -rf DummyBox2_Prod && mkdir -p DummyBox2_Prod && cd DummyBox2_Prod
 singularity pull dummybox2.sif docker://ghcr.io/jiriqapil/dummybox2:v2.1.0
-singularity exec dummybox2.sif cp -r /app/. .
+# Extract app contents cleanly, skipping .git to prevent permission errors
+singularity exec dummybox2.sif tar --exclude='.git' -cf - -C /app . | tar -xf -
 
 # 2. Set working environment variables
 export HOST_PWD=$(pwd)

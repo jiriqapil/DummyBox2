@@ -85,32 +85,12 @@ tag_dicts = {
     "0C": write_init_tag_dict(),
 }
 
-### ========================== LOOP TRACES ZRT-FW,RV ==========================
-### ========================== GEOMETRY UPDATE ==========================
-
-# --- Step 2: Loop over symbol datasets and save figures ---
-## REMOVE ALL Step 2 elements ###
-
-########## NOW cycle stations pairs
-# list=OUTDIR+'/8_FTANBES0_CAT19.pylist'
-# fo = open(list, "x")
-# fo.write('counter,pair,status\n')
-# fo.close()
-
-### ============ BATCH HEADER ===========
-ZONE='INS'
+### ============ BATCH EXECUTION ===========
 
 if not os.path.exists(cfg["output_dir"] + '/NPY'): os.makedirs(cfg["output_dir"] + '/NPY')
 if not os.path.exists(cfg["output_dir"] + '/PNG'): os.makedirs(cfg["output_dir"] + '/PNG')
 if not os.path.exists(cfg["output_dir"] + '/CSV/Dataset_1C'): os.makedirs(cfg["output_dir"] + '/CSV/Dataset_1C')
 if not os.path.exists(cfg["output_dir"] + '/CSV/Dataset_3C'): os.makedirs(cfg["output_dir"] + '/CSV/Dataset_3C')
-
-# flip fw/rv for change pair order
-if ZONE=="CPY":rotcode="flipcpy"
-elif ZONE=="QST":rotcode="flipqst"
-elif ZONE=="RNM":rotcode="fliprnm"
-elif ZONE=="RST":rotcode="fliprst"
-elif ZONE=="CRS":rotcode="flipcrs"
 
 
 ### ========================== TASK EXECUTION LOOP ==========================
@@ -135,6 +115,8 @@ with open(cfg["task_list"], 'r') as f:
      net2 = inpair.split(sep="_")[1].split(sep=".")[0]
      sta2 = inpair.split(sep="_")[1].split(sep=".")[1]
      pair = f"{net1}_{sta1}_{net2}_{sta2}"
+     outpair=net1+"."+sta1+"_"+net2+"."+sta2
+
      # Optional: pass wgtmin if available
      wgtmin_val = wgtmin if wgtmin else None
 
@@ -147,23 +129,6 @@ with open(cfg["task_list"], 'r') as f:
         stations_csv=stations_path, wgtmin=wgtmin
      )      
 
-  ### ========================== END GEOMETRY UPDATE ==========================
-  
-  ## RESET NETWORK CODE XX for FDSN unassigned BOHEMA I-IV and EGER-RIFT operated by GFU
-     BOH12=['B02','B09','B10','B18','B19','B20','B21','B22','B23',\
-                       'BM11','BM12','BM13','BM14','BM15',\
-                       'DIV','DOL','HOM','JAV','KHB','KUN','LAC2','LIP','LNS','SVO','VLD']
-     BOH34=['BLA','BUD','CER','DUN','GFO','JAK','KON','KYS','LAN','MIL','MUN','PNS',\
-                        'ROC','SLA','UHR','UNT','VAL','ZVI','BCH','BTV','CLH','G1107','JES',\
-                        'KRN','KUKS','LOS','NOH','OPOC','ZKO']
-     ER=['BIT','CEJ','JPJ','MOS','NEMA','UST','VLC','ALTD','FALK','MUGL','WARM']
-     if net1=='ZV' and sta1 in BOH12: net1='XX'
-     if net2=='ZV' and sta2 in BOH12: net2='XX'
-     if net1=='ZV' and sta1 in BOH34: net1='XX'
-     if net2=='ZV' and sta2 in BOH34: net2='XX'
-     if net1=='7E' and sta1 in ER: net1='XX'
-     if net2=='7E' and sta2 in ER: net2='XX'
-     upair=net1+"_"+sta1+"_"+net2+"_"+sta2
      outpair=net1+"."+sta1+"_"+net2+"."+sta2
   
   ##=============GEOMETRY BINNING
@@ -173,7 +138,7 @@ with open(cfg["task_list"], 'r') as f:
 
   ### ============= ATTRIBUTES to OUT_NPY ===============
      dispersions = dispersions_get_geometry(
-    upair, lat1, lon1, alt1, lat2, lon2, alt2,
+    pair, lat1, lon1, alt1, lat2, lon2, alt2,
     latMc, lonMc, wgt, dist_km, azim, az, baz,
     CELL, ring, sec, bscore
     )

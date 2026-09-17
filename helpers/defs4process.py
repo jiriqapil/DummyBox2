@@ -52,7 +52,7 @@ def setup_params(env_path=None):
         "QGIS_DIR": f"{base_input_dir}/META/QGIS",
 
         "CPUS_PC": "1",
-        "NTASKS_IN_BATCH": "1",
+        "NTASKS_IN_BATCH": "2",
         "CPUS_HPC": "1",
         "MEMORY": "1gb",
         "WALLTIME": "00:30:00",
@@ -62,7 +62,7 @@ def setup_params(env_path=None):
         "IMAGE_QUALITY": "Publish",
         "SHOW_FIGURE": "false",
 
-        "MULTIFILTER_TYPE": "acoustic_butterworth",
+        "MULTIFILTER_TYPE": "ftan_gaussian",
         "ANCHOR_HARMONISATION": "true",
         "CROSSVALIDATION": "true",
 
