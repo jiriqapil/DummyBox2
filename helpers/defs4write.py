@@ -31,7 +31,7 @@ def write_attr_mask(data, mask):
     """Applies a boolean mask to a nested 2D structure, replacing True with np.nan."""
     arr = np.array(data, dtype=float)
     mask_arr = np.array(mask, dtype=bool)
-    arr[mask_arr] = np.nan
+    arr[~mask_arr] = np.nan
     return arr.tolist()
 
 def write_clean_pytypes(val):
