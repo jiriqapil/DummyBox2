@@ -46,7 +46,7 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
 
                 # Capture ONLY lines starting with [TASK_RESULT] into the task execution log
                 # 'sed' strips out the tag so your final log file contains just the clean table content
-                python3 -B -m dummy2 2>&1 \
+                python3 -B -m dispiner 2>&1 \
                     | grep "^\[TASK_RESULT\]" \
                     | sed 's/\[TASK_RESULT\] //' \
                     > "${LOG_DIR}/task_execution_${TIMESTAMP}.log"

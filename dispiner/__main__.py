@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-module="DummyBox2"
-
 import sys, pathlib
 
 # Register helpers folder relative to notebook path
@@ -538,12 +535,8 @@ with open(cfg["task_list"], 'r') as f:
 # Embed straight into master layout panel (axes_dict['r1c2'])
      plot_crossvalidation_embed(fig1=fig1, ax_r1c2=axes['r1c2']) 
      
-     title_str = f"{module}: multifilter_type={cfg['multifilter_type']}, harmonisation={cfg['anchor_harmonisation']}, cross-validation={cfg['crossvalidation']}"
-     ytitle=0.89
-     if cfg['map_style']=="Private": ytitle=0.88
-     figf.suptitle(title_str, fontsize=14, fontweight="bold",y=ytitle)      
 # Wrap up and render to PIL
-     imgout, imgf, buff = plot_pillow_wrapup(figf, image_quality=image_quality)
+     imgout, imgf, buff = plot_pillow_wrapup(figf, cfg=cfg, image_quality=image_quality)
 
 # Construct path string
      if dispersions['crossvalidation_tag'][0].upper() in ['Z1RT1','Z1RT2','Z2RT1','Z2RT2']:

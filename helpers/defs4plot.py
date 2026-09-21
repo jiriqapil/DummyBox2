@@ -1182,41 +1182,52 @@ def plot_map_render_topo_or_fill(my_map, ax_map, etopo_nc):
         spine.set_edgecolor("black")
         spine.set_visible(True)
  
+def plot_pillow_wrapup(fig, cfg, image_quality="Preview"):
+    # 1. Title/footer string formatted cleanly
+    pkg_name = cfg.get("package_name", "dispiner")
+    title_str = (
+        f"{pkg_name}: "
+        f"multifilter_type={cfg['multifilter_type']}, "
+        f"harmonisation={cfg['anchor_harmonisation']}, "
+        f"cross-validation={cfg['crossvalidation']}"
+    )
 
-def plot_pillow_wrapup(fig, image_quality="Preview"):
-    """
-    Renders matplotlib figure to buffer, converts with Pillow based on quality,
-    and returns (processed_image, raw_image_handle, buffer_handle) for cleanup.
-    """
-    # 1. Set DPI based on quality
+    # 2. Render small grey text right below the frame
+    txt_artist = fig.text(
+        0.15, 0.105,
+        title_str,
+        fontsize=8,
+        color="#555555",
+        style="italic",
+        ha="left",
+        va="bottom"
+    )
+
+    # 3. Render to buffer and convert with PIL
     dpi = 300 if image_quality.upper() == "PUBLISH" else 96
-    
-    # 2. Render matplotlib figure to byte buffer
     fig.patch.set_facecolor("white")
-    
+
     buff = io.BytesIO()
     fig.savefig(
         buff,
         format="png",
         dpi=dpi,
         bbox_inches="tight",
-        pad_inches=0.05,
+        bbox_extra_artists=[txt_artist],
+        pad_inches=0.03,
         transparent=False
     )
     buff.seek(0)
-    
-    # 3. Open with PIL and decode into RAM
+
     imgf = Image.open(buff)
     imgf.load()
-    
-    # 4. Apply mode conversion
-    if image_quality.upper() == "PUBLISH":
-        imgout = imgf.convert("RGB") # Full 24-bit color depth
-    else:
-        imgout = imgf.convert("P", palette=Image.ADAPTIVE, colors=128) # Compressed palette
-        
-    return imgout, imgf, buff
 
+    if image_quality.upper() == "PUBLISH":
+        imgout = imgf.convert("RGB")
+    else:
+        imgout = imgf.convert("P", palette=Image.ADAPTIVE, colors=128)
+
+    return imgout, imgf, buff
 
 def plot_pillow_cleanup(imgout, imgf, buff):
     """Closes images and memory buffers safely."""

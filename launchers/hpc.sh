@@ -58,9 +58,16 @@ fi
 ACTIVE_PATH="${PATH}"
 ACTIVE_PYTHON="$(command -v python3 || command -v python || echo "python3")"
 
-# Check Execution Mode
-SIF_IMAGE="${ROOT_DIR}/dummybox2.sif"
-if [ -f "${SIF_IMAGE}" ]; then
+# Resolve SIF Image Name dynamically from PACKAGE_NAME or locate any *.sif file
+SIF_NAME="${PACKAGE_NAME:-dummybox2}.sif"
+if [ -f "${ROOT_DIR}/${SIF_NAME}" ]; then
+    SIF_IMAGE="${ROOT_DIR}/${SIF_NAME}"
+else
+    # Fallback: Pick the first .sif file found in ROOT_DIR
+    SIF_IMAGE=$(find "${ROOT_DIR}" -maxdepth 1 -name "*.sif" | head -n 1)
+fi
+
+if [ -n "${SIF_IMAGE}" ] && [ -f "${SIF_IMAGE}" ]; then
     EXEC_MODE="SINGULARITY"
     echo "=== Executing Pipeline (HPC Cluster PBS Pure Container Mode) ==="
     echo "SIF Image Found: ${SIF_IMAGE}"
@@ -108,7 +115,7 @@ export MSEED_PATH="\$SCRATCHDIR/input/MSEED"
 
 singularity exec --pwd /app --writable-tmpfs \\
   -B "\$SCRATCHDIR":/app \\
-  "${SIF_IMAGE}" python3 -B -m dummy2 2>&1 \\
+  "${SIF_IMAGE}" python3 -B -m dispiner 2>&1 \\
   | grep --line-buffered "^\[TASK_RESULT\]" \\
   | sed -u 's/\[TASK_RESULT\] //'
 EOF
@@ -123,7 +130,7 @@ export INPUT_DIR="\$SCRATCHDIR/input"
 export STATIONS_PATH="\$SCRATCHDIR/input/stations.csv"
 export MSEED_PATH="\$SCRATCHDIR/input/MSEED"
 
-"${ACTIVE_PYTHON}" -B -m dummy2 2>&1 \\
+"${ACTIVE_PYTHON}" -B -m dispiner 2>&1 \\
   | grep --line-buffered "^\[TASK_RESULT\]" \\
   | sed -u 's/\[TASK_RESULT\] //'
 EOF
@@ -196,7 +203,7 @@ fi
 
 # Copy workspace Python dependencies and config.env to scratch
 cp -r "${ABS_BATCH_DIR}/helpers" "\$SCRATCHDIR/"
-cp -r "${ABS_BATCH_DIR}/dummy2" "\$SCRATCHDIR/"
+cp -r "${ABS_BATCH_DIR}/dispiner" "\$SCRATCHDIR/"
 cp "${ABS_BATCH_DIR}/batch_manifest.txt" "\$SCRATCHDIR/"
 if [ -f "${ABS_BATCH_DIR}/config.env" ]; then
     cp "${ABS_BATCH_DIR}/config.env" "\$SCRATCHDIR/"
@@ -229,6 +236,9 @@ cp "\$SCRATCHDIR/\${TAR_NAME}" "${BASE_OUTPUT_REAL}/${BATCH_NAME}.tar"
 
 END_TIME=\$(date +%s)
 RUNTIME=\$(( END_TIME - START_TIME ))
+
+# 7. clean the SCRATCH directory
+clean_scratch
 
 echo "${BATCH_NAME} finished in \${RUNTIME}s" >> "\${MASTER_LOG}"
 EOT

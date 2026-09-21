@@ -40,7 +40,9 @@ def setup_params(env_path=None):
         selected_task_list = os.getenv("TASK_LIST", f"{base_input_dir}/task_list_demo.csv")
 
     defaults = {
-        "SUBMIT_MODE": "pcmono",
+        "PACKAGE_NAME": "dispiner",
+        "PACKAGE_TAG": "",
+        "SUBMIT_MODE": "pcpara",
         "PC_EXECUTION": "active",                   # Internal execution style (active vs detached)
         "INPUT_DIR": base_input_dir,
         "TASK_LIST": selected_task_list,
@@ -51,18 +53,18 @@ def setup_params(env_path=None):
         "ETOPO_NC": f"{base_input_dir}/META/ETOPO/ETOPO1_Ice_g_gmt4_cropEU.nc",
         "QGIS_DIR": f"{base_input_dir}/META/QGIS",
 
-        "CPUS_PC": "1",
+        "CPUS_PC": "2",
         "NTASKS_IN_BATCH": "2",
         "CPUS_HPC": "1",
-        "MEMORY": "1gb",
-        "WALLTIME": "00:30:00",
+        "MEMORY": "16gb",
+        "WALLTIME": "01:00:00",
 
         "MAP_STYLE": "Default",
         "USE_QGIS": "false",
         "IMAGE_QUALITY": "Publish",
         "SHOW_FIGURE": "false",
 
-        "MULTIFILTER_TYPE": "ftan_gaussian",
+        "MULTIFILTER_TYPE": "acoustic_butterworth",
         "ANCHOR_HARMONISATION": "true",
         "CROSSVALIDATION": "true",
 
@@ -82,6 +84,9 @@ def setup_params(env_path=None):
     }
 
     cfg = {}
+    cfg["package_name"] = os.getenv("PACKAGE_NAME", defaults["PACKAGE_NAME"])
+    cfg["package_tag"] = os.getenv("PACKAGE_TAG", defaults["PACKAGE_TAG"])
+
     cfg["baked_batch"] = BAKED_BATCH
     cfg["baked_ntasks"] = BAKED_NTASKS
     cfg["project_dir"] = str(project_dir)

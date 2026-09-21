@@ -13,18 +13,88 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(PROJECT_ROOT))
 sys.path.insert(0, str(PROJECT_ROOT / "helpers"))
 
+def detect_container_metadata():
+    """Dynamically discover PACKAGE_NAME and PACKAGE_TAG from .sif symlink, environment, or inspect."""
+    pkg_name = None
+    pkg_tag = None
+
+    # 1. Check for .sif file in PROJECT_ROOT (HPC Singularity Mode)
+    sif_files = list(PROJECT_ROOT.glob("*.sif"))
+    if sif_files:
+        sif_path = sif_files[0]
+        # Extract filename without extension (e.g., 'dummybox2.sif' -> 'dummybox2')
+        pkg_name = sif_path.stem
+
+        # Try to inspect the .sif image labels for a version tag
+        try:
+            res = subprocess.run(
+                ["singularity", "inspect", "--labels", str(sif_path)],
+                capture_output=True, text=True, timeout=5
+            )
+            for line in res.stdout.splitlines():
+                line_lower = line.lower()
+                if "version" in line_lower or "tag" in line_lower:
+                    parts = line.split(":", 1)
+                    if len(parts) == 2:
+                        pkg_tag = parts[1].strip()
+                        break
+        except Exception:
+            pass  # Failproof fallback if singularity binary isn't in PATH or inspect fails
+
+    # 2. Check Environment / Docker / Mamba / GitHub VM fallbacks
+    if not pkg_name:
+        pkg_name = os.getenv("PACKAGE_NAME") or os.getenv("CONTAINER_NAME") or "dispiner"
+
+    if not pkg_tag:
+        pkg_tag = os.getenv("PACKAGE_TAG") or os.getenv("CONTAINER_TAG") or ""
+
+    return pkg_name, pkg_tag
+
+
 def load_config_env():
     """Load config.env into os.environ before setup_params evaluation."""
     env_file = PROJECT_ROOT / "config.env"
+
+    # Dynamically detect image metadata based on runtime context
+    detected_name, detected_tag = detect_container_metadata()
+
+    # 1. Safely prepend missing package variables to config.env if file is writable
+    try:
+        if env_file.exists():
+            content = env_file.read_text(encoding="utf-8")
+            missing_lines = []
+            if "PACKAGE_NAME=" not in content:
+                missing_lines.append(f"PACKAGE_NAME={detected_name}")
+            if "PACKAGE_TAG=" not in content:
+                missing_lines.append(f"PACKAGE_TAG={detected_tag}")
+
+            if missing_lines:
+                new_content = "\n".join(missing_lines) + "\n" + content
+                env_file.write_text(new_content, encoding="utf-8")
+        else:
+            default_block = f"PACKAGE_NAME={detected_name}\nPACKAGE_TAG={detected_tag}\n"
+            env_file.write_text(default_block, encoding="utf-8")
+    except Exception:
+        # Failproof: ignore write errors if running in read-only environment
+        pass
+
+    # 2. Set default environment variables in memory as baseline fallback
+    os.environ.setdefault("PACKAGE_NAME", detected_name)
+    os.environ.setdefault("PACKAGE_TAG", detected_tag)
+
+    # 3. Preserve original config.env parsing logic
     if env_file.exists():
-        with open(env_file, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#") or "=" not in line:
-                    continue
-                key, val = line.split("=", 1)
-                val = val.split("#", 1)[0].strip()
-                os.environ[key.strip()] = val
+        try:
+            with open(env_file, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("#") or "=" not in line:
+                        continue
+                    key, val = line.split("=", 1)
+                    val = val.split("#", 1)[0].strip()
+                    os.environ[key.strip()] = val
+        except Exception:
+            pass
 
 load_config_env()
 from helpers.defs4process import setup_params
@@ -140,7 +210,7 @@ def prepare_batch_workspaces(cfg):
 
         # 3. Copy application execution packages
         shutil.copytree(PROJECT_ROOT / "helpers", batch_path / "helpers")
-        shutil.copytree(PROJECT_ROOT / "dummy2", batch_path / "dummy2")
+        shutil.copytree(PROJECT_ROOT / "dispiner", batch_path / "dispiner")
 
         # 4. Bake runtime parameters into sandbox
         defs_path = batch_path / "helpers" / "defs4process.py"

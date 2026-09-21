@@ -42,7 +42,7 @@ if [ -d "${ROOT_DIR}/batch_execution" ]; then
             cd "$batch_dir"
             
             # Capture tagged task lines into clean CSV batch log
-            python3 -B -m dummy2 2>&1 \
+            python3 -B -m dispiner 2>&1 \
                 | grep "^\[TASK_RESULT\]" \
                 | sed 's/\[TASK_RESULT\] //' \
                 > "${LOG_DIR}/task_execution_${TIMESTAMP}.log"
